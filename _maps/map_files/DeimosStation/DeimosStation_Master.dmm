@@ -56458,17 +56458,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /turf/open/floor/plating,
 /area/station/service)
-"pBT" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 2
-	},
-/turf/open/floor/iron/textured_edge{
-	dir = 1
-	},
-/area/station/hallway/secondary/command)
 "pBW" = (
 /obj/effect/turf_decal/tile/dark_red/half/contrasted,
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -118522,7 +118511,7 @@ utF
 ixF
 ixo
 iSC
-pBT
+hUZ
 glU
 iBx
 laQ
