@@ -3701,11 +3701,16 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
 "aXz" = (
-/obj/structure/cable,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass,
-/obj/machinery/light/floor,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 9
+	},
+/turf/open/floor/iron,
 /area/station/hallway)
 "aXA" = (
 /obj/machinery/portable_atmospherics/pump,
@@ -7337,16 +7342,17 @@
 /turf/open/floor/iron/textured,
 /area/station/hallway/secondary/service)
 "bUw" = (
-/obj/effect/landmark/start/science_guard,
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 10
-	},
-/obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/siding/red,
+/obj/effect/turf_decal/siding/red/corner,
 /obj/effect/turf_decal/siding/red/corner{
-	dir = 1
+	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/red/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 8
+	},
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -9045,16 +9051,8 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "crh" = (
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/red/corner,
-/obj/effect/turf_decal/siding/red/corner{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/smooth_edge{
-	dir = 8
-	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -9062,14 +9060,7 @@
 /turf/closed/wall,
 /area/station/command/heads_quarters/cmo)
 "crn" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/red{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/smooth_edge,
+/turf/closed/wall,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -10379,6 +10370,7 @@
 /area/station/solars/starboard/fore)
 "cIZ" = (
 /obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/white/small{
 	color = "#d6c5b0"
 	},
@@ -10448,14 +10440,18 @@
 /turf/open/floor/iron/dark/small,
 /area/station/science/sociology_lab)
 "cKk" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 6
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/effect/turf_decal/siding/white,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/iron,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
 /area/station/hallway)
 "cKu" = (
 /obj/structure/cable,
@@ -14149,12 +14145,19 @@
 /turf/open/floor/plating/sandyplating,
 /area/station/engineering/power_room)
 "dKE" = (
-/obj/machinery/computer/secure_data{
+/obj/machinery/shower/directional/west,
+/obj/effect/turf_decal/trimline/blue/end{
 	dir = 8
 	},
-/obj/effect/turf_decal/bot,
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/purple,
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/obj/structure/drain,
+/turf/open/floor/iron/white/small,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -14221,7 +14224,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
 "dLy" = (
-/obj/machinery/light/directional/west,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
@@ -15437,14 +15439,18 @@
 /turf/open/floor/carpet,
 /area/station/hallway)
 "ech" = (
-/obj/effect/landmark/start/science_guard,
-/obj/effect/turf_decal/trimline/red/filled/warning{
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 6
 	},
-/obj/effect/turf_decal/siding/red{
-	dir = 6
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 1
 	},
-/turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -16218,6 +16224,7 @@
 /obj/structure/drain,
 /obj/machinery/shower/directional/north,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/bikehorn/rubberducky,
 /turf/open/floor/iron/white/small{
 	color = "#d6c5b0"
 	},
@@ -17260,14 +17267,16 @@
 /turf/open/floor/wood/large,
 /area/station/service/theater)
 "eCt" = (
-/obj/structure/chair,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 5
-	},
+/obj/structure/closet/secure_closet/security/science,
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/siding/red{
-	dir = 5
+	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -17678,14 +17687,17 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "eHK" = (
-/obj/effect/landmark/start/science_guard,
-/obj/effect/turf_decal/trimline/red/filled/warning{
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 5
 	},
-/obj/effect/turf_decal/siding/red{
-	dir = 5
-	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/white/smooth_edge,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -17941,19 +17953,8 @@
 	},
 /area/station/maintenance/department/science/xenobiology)
 "eLV" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Science Guard's Office"
-	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/siding/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/red{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -19862,11 +19863,12 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/secondary/entry)
 "fkg" = (
-/obj/structure/chair,
-/obj/effect/turf_decal/trimline/red/filled/line{
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/turf_decal/siding/red{
 	dir = 9
 	},
-/obj/effect/turf_decal/siding/red{
+/obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 9
 	},
 /turf/open/floor/iron/dark,
@@ -20758,17 +20760,13 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "fwf" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 1
+/obj/effect/turf_decal/siding/purple{
+	dir = 9
 	},
-/obj/effect/turf_decal/siding/red/corner{
-	dir = 4
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
 	},
-/obj/effect/turf_decal/siding/red/corner{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/smooth_edge,
+/turf/open/floor/iron/white,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -21483,9 +21481,6 @@
 /area/station/engineering/atmos)
 "fEM" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/trimline/purple/filled/warning{
-	dir = 6
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -21493,6 +21488,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/purple,
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 6
+	},
 /turf/open/floor/iron/white,
 /area/station/science)
 "fEO" = (
@@ -31784,16 +31782,16 @@
 	name = "\improper Security Restroom"
 	})
 "ijn" = (
-/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 4
+	dir = 5
 	},
-/turf/open/floor/iron/edge{
-	dir = 8
-	},
+/turf/open/floor/iron,
 /area/station/hallway)
 "ijq" = (
 /obj/machinery/meter,
@@ -34024,16 +34022,24 @@
 	},
 /area/station/security/brig)
 "iQK" = (
-/obj/structure/closet/secure_closet/security/science,
-/obj/effect/turf_decal/bot,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 9
+/obj/structure/table,
+/obj/item/folder/red{
+	pixel_x = -6;
+	pixel_y = 4
 	},
-/obj/structure/disposalpipe/segment,
+/obj/item/paper_bin{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 4
+	},
 /obj/effect/turf_decal/siding/red{
-	dir = 9
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 5
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science{
@@ -35327,19 +35333,21 @@
 /area/station/security/prison/workout)
 "jhY" = (
 /obj/structure/table,
-/obj/item/folder/red{
+/obj/machinery/recharger{
 	pixel_x = -6;
 	pixel_y = 4
 	},
-/obj/item/paper_bin{
-	pixel_x = 5;
-	pixel_y = 4
+/obj/item/book/manual/wiki/security_space_law{
+	pixel_x = 6;
+	pixel_y = 3
 	},
-/obj/item/pen{
-	pixel_x = 5;
-	pixel_y = 4
+/obj/effect/turf_decal/siding/red{
+	dir = 1
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_edge,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -39188,12 +39196,19 @@
 /turf/open/floor/iron/white,
 /area/station/medical/coldroom)
 "kjq" = (
-/obj/effect/landmark/start/science_guard,
-/obj/effect/turf_decal/trimline/red/filled/warning,
-/obj/effect/turf_decal/siding/red,
-/turf/open/floor/iron/dark/smooth_edge{
+/obj/machinery/door/airlock/security/glass{
+	name = "Science Guard's Office"
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/red{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/red{
+	dir = 2
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -41964,11 +41979,14 @@
 /area/station/maintenance/department/science)
 "kWp" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/trimline/purple/filled/line,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/purple,
+/obj/effect/turf_decal/siding/purple/corner,
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -47487,19 +47505,14 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/secondary/entry)
 "mtG" = (
-/obj/structure/chair/office{
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/purple{
 	dir = 4
 	},
-/obj/effect/landmark/start/science_guard,
-/obj/effect/turf_decal/trimline/red/filled/warning{
+/obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/red{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/smooth_edge{
-	dir = 8
-	},
+/turf/open/floor/iron/white/smooth_large,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -49229,13 +49242,10 @@
 /turf/open/floor/iron/dark/diagonal,
 /area/station/security/prison/workout)
 "mQu" = (
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/red/filled/line{
+/obj/effect/turf_decal/siding/red{
 	dir = 10
 	},
-/obj/effect/turf_decal/siding/red{
+/obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 10
 	},
 /turf/open/floor/iron/dark,
@@ -54309,14 +54319,23 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/heads_quarters/rd)
 "oeM" = (
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/purple{
 	dir = 8
 	},
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 9
+/obj/machinery/door/airlock/research{
+	name = "Research Division Access"
 	},
-/turf/open/floor/iron,
-/area/station/hallway)
+/obj/effect/mapping_helpers/airlock/access/all/science/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/security/checkpoint/science{
+	name = "Science Guard's Office"
+	})
 "oeQ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -56228,10 +56247,8 @@
 /turf/open/floor/plating,
 /area/command/heads_quarters/captain/private/nt_rep)
 "oFd" = (
-/obj/machinery/computer/mecha{
-	dir = 8
-	},
-/obj/effect/turf_decal/bot,
+/obj/structure/closet/firecloset,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
@@ -57281,17 +57298,22 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/station/maintenance/abandoned_shuttlebay)
 "oTc" = (
-/obj/effect/turf_decal/siding/dark_green,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/dark_green/filled/line{
-	dir = 10
-	},
-/turf/open/floor/iron/edge{
+/obj/effect/turf_decal/siding/purple{
 	dir = 4
 	},
-/area/station/hallway)
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/science/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/research/glass{
+	name = "Research Division Access"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/station/security/checkpoint/science{
+	name = "Science Guard's Office"
+	})
 "oTd" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 4
@@ -57504,14 +57526,11 @@
 /area/station/cargo/storage)
 "oVF" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/trimline/purple/filled/warning,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/purple/corner,
+/obj/effect/turf_decal/siding/purple,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -60376,17 +60395,8 @@
 /turf/open/misc/asteroid/airless,
 /area/station/maintenance/department/bridge)
 "pIs" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/red,
+/obj/machinery/holopad/secure,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
@@ -61013,20 +61023,13 @@
 /turf/open/floor/iron/pool,
 /area/station/command/heads_quarters/hop)
 "pPn" = (
-/obj/structure/rack,
-/obj/item/crowbar,
-/obj/item/wrench,
-/obj/item/clothing/mask/gas,
-/obj/item/radio,
-/obj/effect/turf_decal/bot,
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/red/filled/warning{
+/obj/effect/turf_decal/siding/purple{
 	dir = 10
 	},
-/obj/effect/turf_decal/siding/red{
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 10
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/white,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -61812,6 +61815,20 @@
 /obj/item/toy/plush/slimeplushie,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
+"qaA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/station/hallway)
 "qaF" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 1
@@ -67132,14 +67149,14 @@
 /turf/open/floor/wood/tile,
 /area/station/service/abandoned_gambling_den)
 "rxQ" = (
-/obj/effect/turf_decal/stripes/line{
+/obj/machinery/computer/mecha{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 5
-	},
-/turf/open/floor/iron,
-/area/station/hallway)
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/checkpoint/science{
+	name = "Science Guard's Office"
+	})
 "rxX" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
@@ -67813,16 +67830,18 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/fore/greater)
 "rEY" = (
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
 /obj/structure/cable,
-/obj/effect/turf_decal/trimline/red/filled/corner{
+/obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 8
 	},
-/obj/machinery/holopad/secure,
-/obj/effect/turf_decal/siding/red/corner{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 8
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 4
 	},
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
@@ -72247,11 +72266,14 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/bridge)
 "sLK" = (
-/obj/machinery/light/directional/west,
-/obj/effect/turf_decal/trimline/red/filled/line{
+/obj/effect/turf_decal/siding/red{
 	dir = 8
 	},
-/obj/effect/turf_decal/siding/red{
+/obj/structure/cable,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_edge{
@@ -73575,10 +73597,7 @@
 	name = "Emergency Technician's Office"
 	})
 "tdF" = (
-/obj/machinery/computer/security{
-	dir = 8
-	},
-/obj/effect/turf_decal/bot,
+/obj/structure/closet/l3closet/scientist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
@@ -77028,16 +77047,11 @@
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
 "tXw" = (
-/obj/structure/chair{
+/obj/effect/turf_decal/siding/red,
+/obj/effect/turf_decal/trimline/red/filled/line,
+/turf/open/floor/iron/dark/smooth_edge{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/red/filled/line{
-	dir = 6
-	},
-/obj/effect/turf_decal/siding/red{
-	dir = 6
-	},
-/turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -77526,14 +77540,14 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/lobby)
 "udR" = (
-/obj/structure/drain,
-/obj/machinery/shower/directional/south,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/bikehorn/rubberducky,
-/turf/open/floor/iron/white/small{
-	color = "#d6c5b0"
+/obj/machinery/computer/secure_data{
+	dir = 4
 	},
-/area/station/maintenance/port/fore)
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/checkpoint/science{
+	name = "Science Guard's Office"
+	})
 "udV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/shreds,
@@ -78663,8 +78677,13 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/neutral/filled/line,
-/turf/open/floor/iron/large,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 6
+	},
+/turf/open/floor/iron,
 /area/station/hallway)
 "urp" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -84735,12 +84754,14 @@
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/supply)
 "vWG" = (
-/obj/structure/drain,
-/obj/machinery/shower/directional/north,
-/turf/open/floor/iron/white/small{
-	color = "#d6c5b0"
+/obj/effect/turf_decal/bot,
+/obj/machinery/computer/security{
+	dir = 4
 	},
-/area/station/maintenance/port/fore)
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/security/checkpoint/science{
+	name = "Science Guard's Office"
+	})
 "vWP" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron/smooth,
@@ -86816,9 +86837,7 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/maintenance/port)
 "wym" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/plating,
+/turf/closed/wall/r_wall,
 /area/station/maintenance/port/fore)
 "wys" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -89192,17 +89211,19 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "xgV" = (
-/obj/structure/table,
-/obj/machinery/recharger{
-	pixel_x = -6;
-	pixel_y = 4
+/obj/structure/rack,
+/obj/item/crowbar,
+/obj/item/wrench,
+/obj/item/clothing/mask/gas,
+/obj/item/radio,
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/siding/red{
+	dir = 6
 	},
-/obj/item/book/manual/wiki/security_space_law{
-	pixel_x = 6;
-	pixel_y = 3
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 6
 	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/dark,
 /area/station/security/checkpoint/science{
 	name = "Science Guard's Office"
 	})
@@ -90630,7 +90651,7 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/starboard/central)
 "xAB" = (
-/turf/closed/wall/r_wall,
+/turf/closed/wall/rust,
 /area/station/science/genetics)
 "xAD" = (
 /obj/structure/closet/crate/freezer,
@@ -118570,10 +118591,10 @@ vab
 vab
 vab
 vab
-udR
 wym
-vWG
-pXR
+wym
+wym
+lVG
 iWw
 fRR
 kdQ
@@ -118827,10 +118848,10 @@ pvW
 ciM
 dtx
 vab
-wHT
-wHT
-wHT
-wHT
+vWG
+udR
+rxQ
+sCB
 iWw
 fRR
 njS
@@ -119087,7 +119108,7 @@ vab
 fkg
 sLK
 mQu
-wHT
+sCl
 iWw
 fRR
 njS
@@ -119344,7 +119365,7 @@ vab
 eCt
 crh
 tXw
-wHT
+sCl
 iWw
 fRR
 njS
@@ -119598,10 +119619,10 @@ nwS
 bxz
 fPr
 vab
-sCl
+jhY
 pIs
-wHT
-wHT
+tXw
+sCl
 iWw
 fRR
 njS
@@ -119858,7 +119879,7 @@ crt
 iQK
 bUw
 xgV
-sCB
+wHT
 kKZ
 fRR
 njS
@@ -120111,11 +120132,11 @@ hHu
 hHu
 dLy
 ylP
+wHT
 sCl
-crn
 kjq
-jhY
 sCl
+wHT
 btU
 fRR
 njS
@@ -120372,10 +120393,10 @@ eLV
 fwf
 rEY
 pPn
-sCl
-rxQ
-ijn
-cKk
+crn
+btU
+fRR
+njS
 hvk
 qgp
 agm
@@ -120625,14 +120646,14 @@ qOT
 kFG
 uKG
 kWp
-sCl
+oTc
 eHK
 mtG
 ech
-sCl
-ndX
-aXz
-xHo
+oeM
+btU
+fRR
+njS
 rmB
 rmB
 rmB
@@ -120882,14 +120903,14 @@ lJO
 dUr
 lYn
 fEM
-wHT
+eLV
 tdF
 dKE
 oFd
-wHT
-oeM
-kIF
-oTc
+crn
+btU
+fRR
+cjf
 cRz
 obd
 blL
@@ -121139,10 +121160,10 @@ lJO
 nJh
 nJh
 sfz
-xAB
-xAB
-xAB
-xAB
+tcX
+tcX
+tcX
+tcX
 xAB
 btU
 fRR
@@ -121400,7 +121421,7 @@ fpS
 qHl
 tcX
 wmj
-tcX
+xAB
 btU
 fRR
 sRe
@@ -121655,7 +121676,7 @@ sak
 rvt
 eBu
 tMf
-tcX
+xAB
 tcX
 tcX
 btU
@@ -123959,18 +123980,18 @@ wqh
 hjP
 wrX
 eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
-eBE
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
+laQ
 laQ
 cqh
 lfC
@@ -125000,7 +125021,7 @@ jtm
 iMh
 iMh
 lRI
-lRI
+cqh
 lRI
 wgm
 azx
@@ -125257,7 +125278,7 @@ igC
 ygV
 bqe
 lRI
-lRI
+cqh
 lRI
 xez
 dYF
@@ -125514,7 +125535,7 @@ tFF
 rYO
 bqe
 lRI
-lRI
+cqh
 lRI
 uqa
 dYF
@@ -125771,7 +125792,7 @@ unX
 oVr
 bqe
 lRI
-lRI
+cqh
 lRI
 xez
 dYF
@@ -126027,8 +126048,8 @@ huC
 pMv
 dma
 iMh
-evt
-cqh
+ijn
+cKk
 uro
 wgm
 dYF
@@ -126284,9 +126305,9 @@ bqe
 pdW
 iMh
 iMh
-evt
-cqh
-uro
+ghg
+nOw
+itg
 wgm
 wgm
 wgm
@@ -126541,9 +126562,9 @@ ihv
 wKV
 tnQ
 bqe
-evt
-cqh
-cqh
+aXz
+qaA
+qaA
 xrD
 jlH
 cUS
