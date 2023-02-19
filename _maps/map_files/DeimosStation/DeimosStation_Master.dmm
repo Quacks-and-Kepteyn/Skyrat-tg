@@ -2332,14 +2332,14 @@
 	},
 /area/station/engineering/storage)
 "aFU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/unres{
+/obj/machinery/door/airlock/external,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/starboard/central)
+/turf/open/floor/plating,
+/area/station/maintenance/solars/starboard/fore)
 "aGj" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -3500,15 +3500,6 @@
 /obj/effect/turf_decal/stripes/red/full,
 /turf/open/floor/engine,
 /area/station/ai_monitored/command/nuke_storage)
-"aUX" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 1
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/starboard/central)
 "aUZ" = (
 /obj/structure/cable,
 /turf/open/floor/carpet/royalblue,
@@ -22296,6 +22287,7 @@
 "fQD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/grass/jungle/b/style_random,
+/obj/structure/grille/broken,
 /turf/open/floor/plating/sandyplating,
 /area/station/maintenance/starboard/central)
 "fQT" = (
@@ -25409,9 +25401,7 @@
 /obj/machinery/door/airlock/external,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "gGc" = (
@@ -44209,9 +44199,7 @@
 "lDm" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 1
-	},
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
 "lDn" = (
@@ -46768,6 +46756,7 @@
 "mlH" = (
 /obj/structure/flora/rock/pile/style_random,
 /obj/effect/spawner/random/structure/closet_maintenance,
+/obj/structure/grille/broken,
 /turf/open/floor/plating/sandyplating,
 /area/station/maintenance/starboard/central)
 "mlM" = (
@@ -61287,6 +61276,7 @@
 /obj/machinery/shower/directional/east,
 /obj/structure/drain,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/rock/pile/style_random,
 /turf/open/floor/iron/white/small{
 	color = "#d6c5b0"
 	},
@@ -61972,10 +61962,10 @@
 /turf/open/floor/carpet/royalblack,
 /area/station/command/heads_quarters/hos)
 "qhs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/starboard/central)
 "qhw" = (
@@ -65341,9 +65331,12 @@
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology/hallway)
 "rdt" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/unres,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
 "rdO" = (
@@ -66081,11 +66074,12 @@
 /turf/open/floor/carpet/blue,
 /area/station/medical/psychology)
 "rnk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 9
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
 	},
-/turf/open/floor/catwalk_floor/iron_dark,
+/turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
 "rnB" = (
 /obj/structure/table/reinforced,
@@ -74862,9 +74856,9 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/unres{
-	dir = 8
+	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/starboard/central)
 "txR" = (
 /obj/structure/railing{
@@ -77226,13 +77220,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/station/commons/lounge)
-"uep" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/station/maintenance/solars/starboard/fore)
 "uer" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/structure/flora/bush/large/style_random,
@@ -79491,7 +79478,9 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/unres,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/starboard/central)
 "uGX" = (
@@ -132600,9 +132589,9 @@ aLC
 cIV
 tCC
 tCC
-uep
-rUe
 gFS
+rUe
+aFU
 iLU
 xpC
 scR
@@ -134217,7 +134206,7 @@ fNb
 upS
 fNb
 fNb
-txy
+rdt
 fNb
 mYM
 tUT
@@ -134724,7 +134713,7 @@ oTD
 nHx
 mef
 ygb
-aFU
+txy
 ygb
 ygb
 xzd
@@ -136244,7 +136233,7 @@ cVy
 cgv
 pXR
 fNb
-txy
+rdt
 fNb
 hAm
 rQt
@@ -137277,11 +137266,11 @@ oDa
 fNb
 bGX
 kdu
-qhs
-bTa
+riC
+riC
 fiB
-eoT
-fND
+riC
+gjV
 nHx
 pdk
 xPh
@@ -137531,14 +137520,14 @@ gjV
 nQv
 gjV
 lQY
-uGR
+qhs
 cBk
 vyd
-rnk
-fNb
-fNb
-htV
-fNb
+cBk
+bTa
+fiB
+eoT
+riC
 nHx
 nHx
 nHx
@@ -137789,11 +137778,11 @@ nQv
 riC
 mlH
 fNb
+iKr
+mOF
 riC
 riC
 riC
-fNb
-jsh
 qOT
 gjV
 riC
@@ -138307,7 +138296,7 @@ awg
 nPk
 wvt
 uUG
-riC
+jsh
 gjV
 riC
 ydk
@@ -139089,7 +139078,7 @@ pen
 sPZ
 sPZ
 cBk
-aUX
+uGR
 mZx
 mZx
 xXo
@@ -139857,9 +139846,9 @@ nQv
 fNb
 buI
 qrw
-lDm
+rnk
 qmc
-rdt
+lDm
 jRK
 nAB
 pWd
