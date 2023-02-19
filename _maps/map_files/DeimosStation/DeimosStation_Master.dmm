@@ -13739,6 +13739,7 @@
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 1
 	},
+/obj/structure/flora/grass/jungle/b/style_random,
 /turf/open/floor/iron/edge{
 	dir = 2
 	},
@@ -20703,12 +20704,11 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/bridge)
 "fvG" = (
-/obj/effect/turf_decal/sand,
 /obj/structure/flora/bush/large/style_random,
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 1
 	},
-/turf/open/floor/iron,
+/turf/open/floor/plating/sandyplating,
 /area/station/service/hydroponics)
 "fvM" = (
 /obj/effect/turf_decal/siding/wood{
@@ -26226,7 +26226,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/trimline/red/filled/line{
+/obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 5
 	},
 /turf/open/floor/iron,
@@ -42808,9 +42808,8 @@
 /turf/open/floor/wood/tile,
 /area/station/common)
 "lfx" = (
-/obj/structure/flora/grass/jungle/b/style_random,
-/turf/open/floor/plating/sandyplating,
-/area/station/service/hydroponics)
+/turf/closed/wall/rust,
+/area/station/service/kitchen/coldroom)
 "lfz" = (
 /obj/effect/spawner/liquids_spawner,
 /obj/structure/cable,
@@ -60969,8 +60968,7 @@
 	},
 /area/station/common)
 "pON" = (
-/obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/floor/plating/sandyplating,
+/turf/closed/wall/rust,
 /area/station/service/hydroponics)
 "pOY" = (
 /obj/machinery/light/warm/directional/south,
@@ -70575,6 +70573,7 @@
 /obj/effect/turf_decal/trimline/neutral/filled/line,
 /obj/effect/turf_decal/siding/white,
 /obj/effect/turf_decal/sand,
+/obj/structure/flora/rock/pile/jungle/style_random,
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
@@ -78028,6 +78027,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 4
+	},
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
@@ -81104,6 +81106,9 @@
 /area/station/medical/paramedic{
 	name = "Emergency Technician's Office"
 	})
+"uYm" = (
+/turf/closed/wall/rust,
+/area/station/service/barber)
 "uYq" = (
 /obj/structure/table,
 /obj/item/clipboard,
@@ -84396,6 +84401,9 @@
 /area/station/medical/paramedic{
 	name = "Emergency Technician's Office"
 	})
+"vST" = (
+/turf/closed/wall/rust,
+/area/station/hallway/secondary/service)
 "vSY" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 10
@@ -89958,6 +89966,9 @@
 	},
 /turf/open/floor/iron/textured,
 /area/station/hallway/secondary/exit)
+"xsY" = (
+/turf/closed/wall/rust,
+/area/station/service/bar)
 "xtg" = (
 /obj/machinery/computer/prisoner/gulag_teleporter_computer,
 /obj/machinery/light/warm/directional/north,
@@ -115379,7 +115390,7 @@ ndi
 kjI
 bHP
 pXR
-rFR
+fDS
 fRR
 fSi
 kZq
@@ -115636,7 +115647,7 @@ atT
 atT
 bHP
 pXR
-rFR
+fDS
 fRR
 ecM
 agj
@@ -128772,8 +128783,8 @@ isU
 tgT
 eWa
 tyf
-tyf
-tyf
+lfx
+lfx
 tyf
 tyf
 tyf
@@ -129272,7 +129283,7 @@ iSo
 pPY
 oCl
 fvG
-lfx
+gqv
 uCq
 peN
 vqE
@@ -129290,7 +129301,7 @@ tZh
 dpF
 ayv
 gVS
-tyf
+lfx
 dnY
 kVG
 nQm
@@ -129528,9 +129539,9 @@ wKy
 wKy
 jOa
 jOa
-gqv
 pON
-uCq
+pON
+uYm
 iYx
 aed
 pYj
@@ -129803,7 +129814,7 @@ sXJ
 sXJ
 sXJ
 sXJ
-sXJ
+vST
 mFA
 oCU
 tnW
@@ -130828,10 +130839,10 @@ fJt
 jiU
 sXJ
 mFA
+xsY
 mFA
-mFA
-mFA
-mFA
+xsY
+xsY
 mFA
 puE
 tnW
@@ -131073,8 +131084,8 @@ lCa
 spa
 bfp
 wKy
-wKy
-wKy
+pON
+pON
 wKy
 wKy
 wKy
@@ -131334,14 +131345,14 @@ swd
 nAM
 kLi
 qPN
-wKy
+pON
 eer
 xBL
 uRR
 rrK
 pwe
 bUk
-mFA
+xsY
 gBa
 gru
 gru
