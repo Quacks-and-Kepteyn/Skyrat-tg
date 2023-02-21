@@ -63106,10 +63106,6 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/freezer,
 /area/station/engineering/main)
-"qtq" = (
-/obj/structure/flora/bush/jungle/a/style_random,
-/turf/open/space/basic,
-/area/space)
 "qty" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 4;
@@ -96416,7 +96412,7 @@ hvS
 hvS
 hvS
 hvS
-qtq
+hvS
 hvS
 cAI
 cAI
