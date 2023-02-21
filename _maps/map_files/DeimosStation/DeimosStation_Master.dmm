@@ -1104,7 +1104,7 @@
 /obj/effect/spawner/random/maintenance,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "anA" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1830,7 +1830,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ayI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -2326,7 +2326,7 @@
 "aFM" = (
 /obj/structure/table,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "aFN" = (
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
@@ -2623,7 +2623,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "aKe" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Cabin";
@@ -2856,7 +2856,7 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "aNk" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
@@ -3611,7 +3611,7 @@
 /obj/machinery/light/small/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "aWu" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -4595,7 +4595,7 @@
 "bkD" = (
 /obj/effect/turf_decal/weather/snow,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bkF" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /turf/open/floor/plating/sandyplating,
@@ -5420,7 +5420,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bve" = (
 /obj/structure/flora/bush/large/style_random,
 /obj/structure/flora/rock/pile/jungle/style_random,
@@ -5816,7 +5816,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bzR" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -6818,7 +6818,7 @@
 "bMt" = (
 /obj/effect/spawner/random/trash/hobo_squat,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bMv" = (
 /obj/structure/cable,
 /obj/structure/closet/secure_closet/security_medic,
@@ -7014,7 +7014,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bPt" = (
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/port)
@@ -7244,7 +7244,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bSO" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/siding/yellow{
@@ -7306,7 +7306,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bTr" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 6
@@ -7338,7 +7338,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "bUb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -8115,7 +8115,7 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /obj/effect/spawner/random/food_or_drink/booze,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cdT" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -8240,7 +8240,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cfx" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -9449,7 +9449,7 @@
 /obj/machinery/computer/arcade/battle,
 /obj/item/stack/arcadeticket/thirty,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cwp" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/spawner/random/structure/crate_abandoned,
@@ -10395,13 +10395,13 @@
 "cHY" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cIb" = (
 /obj/effect/spawner/random/entertainment/drugs,
 /obj/effect/spawner/random/entertainment/money_small,
 /obj/structure/table,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cIp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/closed/wall/r_wall,
@@ -10763,7 +10763,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cOA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/left/directional/east,
@@ -10999,7 +10999,7 @@
 "cRt" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "cRw" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/iron/smooth_large,
@@ -12170,7 +12170,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "dgu" = (
 /obj/machinery/door/poddoor/shutters{
 	dir = 4;
@@ -12344,7 +12344,7 @@
 "djO" = (
 /obj/structure/trash_pile,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "dka" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
@@ -13247,7 +13247,7 @@
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "dxh" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -14046,7 +14046,7 @@
 /obj/structure/closet/crate/bin,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "dIq" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 1
@@ -14533,7 +14533,7 @@
 "dNR" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "dNU" = (
 /obj/structure/curtain,
 /obj/effect/turf_decal/siding/white{
@@ -15503,7 +15503,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eav" = (
 /turf/closed/wall,
 /area/station/service/theater)
@@ -15671,7 +15671,7 @@
 	color = "#d6c5b0"
 	},
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "edm" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/meson,
@@ -15824,7 +15824,7 @@
 "efa" = (
 /obj/effect/spawner/random/trash/moisture_trap,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eft" = (
 /obj/structure/chair/pew/left,
 /turf/open/floor/plating,
@@ -16197,7 +16197,7 @@
 "ejN" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ejO" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -16398,7 +16398,7 @@
 /obj/effect/spawner/random/structure/grille,
 /obj/structure/cable,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "emm" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -16812,7 +16812,7 @@
 /area/station/maintenance/port/fore)
 "eqV" = (
 /turf/open/floor/iron/dark/textured_large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eqZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -17025,7 +17025,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "euW" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 10
@@ -17551,7 +17551,7 @@
 "eDp" = (
 /obj/structure/table,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eDF" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Pharmacy"
@@ -18141,7 +18141,7 @@
 /area/station/security/detectives_office)
 "eLj" = (
 /turf/closed/wall/rust,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eLu" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/decal/cleanable/dirt,
@@ -18285,7 +18285,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eNR" = (
 /obj/effect/turf_decal/bot/left,
 /obj/effect/decal/cleanable/dirt,
@@ -18673,7 +18673,7 @@
 /obj/effect/spawner/random/entertainment/money,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "eSC" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder,
@@ -19684,7 +19684,7 @@
 "ffe" = (
 /obj/effect/spawner/random/structure/grille,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ffp" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/burgundy{
@@ -19744,7 +19744,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fgb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -19895,7 +19895,7 @@
 /obj/machinery/light/warm/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fhS" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/structure/spider/stickyweb,
@@ -20035,7 +20035,7 @@
 	},
 /obj/structure/drain/big,
 /turf/open/floor/iron/dark/textured_large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fjw" = (
 /obj/effect/turf_decal/trimline/darkblue/filled/warning{
 	dir = 5
@@ -22069,7 +22069,7 @@
 "fJS" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fKa" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/sand/plating,
@@ -22325,7 +22325,7 @@
 	dir = 9
 	},
 /turf/open/floor/fakeice/slippery,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fOj" = (
 /obj/structure/frame/computer{
 	anchored = 1;
@@ -22506,7 +22506,7 @@
 /obj/structure/table,
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fQb" = (
 /obj/effect/turf_decal/stripes/asteroid/corner{
 	dir = 1
@@ -23230,7 +23230,7 @@
 /obj/effect/spawner/random/structure/tank_holder,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "fYR" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
 	dir = 4
@@ -24279,7 +24279,7 @@
 /obj/effect/spawner/random/structure/crate_loot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gmf" = (
 /obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
@@ -24535,7 +24535,7 @@
 "gpm" = (
 /obj/effect/spawner/random/structure/crate_loot,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gpx" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 10
@@ -24899,7 +24899,7 @@
 "guW" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "guY" = (
 /obj/structure/sign/warning/directional,
 /turf/closed/wall,
@@ -25038,7 +25038,7 @@
 	anchored = 1
 	},
 /turf/open/floor/fakeice/slippery,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gwD" = (
 /obj/machinery/photocopier,
 /obj/effect/turf_decal/bot,
@@ -25787,7 +25787,7 @@
 /obj/effect/spawner/random/trash/moisture_trap,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gGE" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -25868,7 +25868,7 @@
 "gHY" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gIi" = (
 /obj/effect/turf_decal/tile/dark_red/half/contrasted{
 	dir = 1
@@ -26739,7 +26739,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gTw" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 1
@@ -26820,7 +26820,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "gUp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/effect/turf_decal/stripes/corner{
@@ -29371,7 +29371,7 @@
 "hxR" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "hxU" = (
 /obj/structure/cable,
 /obj/effect/spawner/random/trash/garbage,
@@ -29400,7 +29400,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "hym" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/broken_floor,
@@ -29669,7 +29669,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "hBK" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
@@ -31135,7 +31135,7 @@
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "hVm" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
@@ -31227,7 +31227,7 @@
 /obj/structure/table,
 /obj/effect/spawner/random/trash/soap,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "hXx" = (
 /obj/structure/chair/stool/directional/south,
 /obj/structure/disposalpipe/segment{
@@ -31901,7 +31901,7 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "igU" = (
 /obj/effect/turf_decal/vg_decals/atmos/oxygen,
 /turf/open/floor/engine/o2,
@@ -32013,7 +32013,7 @@
 "iir" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "iiy" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/purple/filled/warning{
@@ -32342,7 +32342,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "imr" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/disposalpipe/segment{
@@ -33108,7 +33108,7 @@
 /obj/item/mop,
 /obj/structure/mop_bucket/janitorialcart,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ixk" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line,
@@ -34268,7 +34268,7 @@
 /area/station/security/prison/visit)
 "iQd" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "iQk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -34276,7 +34276,7 @@
 "iQn" = (
 /obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "iQy" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -35418,7 +35418,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "jfs" = (
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/cmo)
@@ -35886,7 +35886,7 @@
 /obj/machinery/computer/arcade/amputation,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "jlE" = (
 /obj/effect/turf_decal/siding/red{
 	dir = 9
@@ -36689,7 +36689,7 @@
 /area/station/ai_monitored/turret_protected/ai)
 "jyc" = (
 /turf/closed/mineral/random/labormineral,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "jyn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/rock/pile/style_random,
@@ -38157,7 +38157,7 @@
 /area/station/maintenance/abandoned_shuttlebay)
 "jQO" = (
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "jRg" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/wood,
@@ -39155,7 +39155,7 @@
 /obj/effect/spawner/random/entertainment/coin,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kdu" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 10
@@ -39581,7 +39581,7 @@
 "kjR" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kjT" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
@@ -39903,7 +39903,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "knM" = (
 /obj/effect/turf_decal/siding/wideplating_new,
 /turf/open/floor/iron/showroomfloor,
@@ -40382,7 +40382,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kud" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -40447,7 +40447,7 @@
 "kuU" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kva" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/bot,
@@ -40607,7 +40607,7 @@
 /area/station/hallway/secondary/command)
 "kxM" = (
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kxQ" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 4
@@ -40799,7 +40799,7 @@
 /obj/structure/rack,
 /obj/effect/spawner/random/entertainment/money,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kBr" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -40857,7 +40857,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "kCt" = (
 /turf/closed/wall,
 /area/station/service/chapel/funeral)
@@ -43365,7 +43365,7 @@
 	name = "Gamer Cave"
 	},
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ljs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/sofa/left{
@@ -43774,7 +43774,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "lpo" = (
 /obj/structure/flora/rock/pile/style_random,
 /obj/structure/flora/bush/jungle/c/style_random,
@@ -45219,7 +45219,7 @@
 /obj/machinery/computer/arcade/orion_trail,
 /obj/effect/spawner/random/entertainment/coin,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "lIK" = (
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/eighties,
@@ -45895,7 +45895,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "lRp" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/mapping_helpers/broken_floor,
@@ -46140,7 +46140,7 @@
 "lTL" = (
 /obj/structure/rack,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "lUf" = (
 /obj/structure/flora/rock/pile/jungle/style_random,
 /turf/open/misc/asteroid,
@@ -46379,7 +46379,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "lXG" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 4
@@ -46795,7 +46795,7 @@
 "mdZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mef" = (
 /obj/machinery/space_heater,
 /obj/effect/turf_decal/box,
@@ -47468,7 +47468,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mnc" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -47570,7 +47570,7 @@
 /obj/structure/chair/stool/directional/west,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mnY" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
@@ -47625,7 +47625,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "moW" = (
 /obj/machinery/chem_dispenser{
 	layer = 2.7
@@ -48756,7 +48756,7 @@
 /obj/effect/spawner/random/structure/closet_empty,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mEP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -49017,7 +49017,7 @@
 /obj/structure/table,
 /obj/effect/spawner/random/entertainment/wallet_lighter,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mIr" = (
 /turf/open/floor/iron/dark/smooth_edge{
 	dir = 1
@@ -49745,7 +49745,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mRd" = (
 /obj/structure/fireplace,
 /obj/effect/turf_decal/siding/wood{
@@ -49777,7 +49777,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "mRu" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/bot,
@@ -50311,7 +50311,7 @@
 "nak" = (
 /obj/effect/spawner/random/structure/crate_empty,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "nal" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/red,
@@ -51058,7 +51058,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "nkp" = (
 /turf/open/floor/wood/large,
 /area/station/command/meeting_room/council)
@@ -52075,7 +52075,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "nyw" = (
 /obj/machinery/deepfryer,
 /obj/effect/turf_decal/bot,
@@ -52472,7 +52472,7 @@
 "nDr" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "nDu" = (
 /obj/item/paper_bin{
 	pixel_x = -7
@@ -52693,7 +52693,7 @@
 /obj/structure/barricade/wooden/snowed,
 /obj/effect/turf_decal/weather/snow,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "nHd" = (
 /obj/structure/sink/kitchen/directional/north{
 	pixel_y = -16
@@ -54523,7 +54523,7 @@
 "ocj" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ocy" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line,
 /obj/effect/turf_decal/siding/white,
@@ -54741,7 +54741,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "oeK" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/paper_bin{
@@ -54983,7 +54983,7 @@
 "oir" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "oiv" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance,
@@ -55518,7 +55518,7 @@
 "onO" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "onR" = (
 /obj/effect/turf_decal/siding/dark_red,
 /obj/effect/turf_decal/siding/dark_red{
@@ -55989,7 +55989,7 @@
 "ovF" = (
 /obj/effect/spawner/random/structure/tank_holder,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ovM" = (
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/decal/cleanable/dirt,
@@ -56148,7 +56148,7 @@
 	},
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "oxZ" = (
 /obj/machinery/light_switch/directional/east{
 	pixel_y = -26
@@ -56564,7 +56564,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "oDi" = (
 /obj/machinery/cryopod{
 	dir = 4
@@ -56854,7 +56854,7 @@
 "oGy" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "oGA" = (
 /obj/machinery/bookbinder,
 /obj/effect/turf_decal/siding/wood{
@@ -57573,7 +57573,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "oPW" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/orange/double,
@@ -58499,7 +58499,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "pav" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 9
@@ -60079,7 +60079,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "pvR" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 4
@@ -60098,7 +60098,7 @@
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "pwe" = (
 /obj/effect/turf_decal/siding/dark_green/corner{
 	dir = 8
@@ -60217,7 +60217,7 @@
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "pyf" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/dark_red{
@@ -60281,7 +60281,7 @@
 /area/station/maintenance/fore/greater)
 "pzK" = (
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "pzO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -61877,7 +61877,7 @@
 /area/station/engineering/atmos/hfr_room)
 "pUc" = (
 /turf/closed/wall,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "pUf" = (
 /obj/effect/spawner/random/trash/hobo_squat,
 /obj/effect/spawner/random/trash/food_packaging,
@@ -62337,7 +62337,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "qac" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -62538,7 +62538,7 @@
 /obj/effect/spawner/random/entertainment/money,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "qcY" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/structure/closet/secure_closet/engineering_electrical{
@@ -66906,7 +66906,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rls" = (
 /obj/effect/spawner/random/trash/grime,
 /obj/effect/decal/cleanable/dirt,
@@ -66994,7 +66994,7 @@
 	pixel_x = -13
 	},
 /turf/open/floor/fakeice/slippery,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rmu" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/secure_closet/atmospherics,
@@ -67396,7 +67396,7 @@
 "rsR" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rsS" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/bot,
@@ -68200,7 +68200,7 @@
 "rCu" = (
 /obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rCw" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -68705,7 +68705,7 @@
 "rFX" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rFZ" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/red/filled/warning,
@@ -68981,7 +68981,7 @@
 /area/station/maintenance/disposal/incinerator)
 "rLC" = (
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rLE" = (
 /turf/open/floor/wood/large,
 /area/blueshield)
@@ -69524,7 +69524,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "rUe" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -70031,7 +70031,7 @@
 "sbi" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "sbj" = (
 /obj/effect/spawner/random/structure/girder,
 /obj/effect/decal/cleanable/dirt,
@@ -70489,7 +70489,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "sgs" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/mineral/random/labormineral,
@@ -71072,7 +71072,7 @@
 	},
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/fakeice/slippery,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "smH" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning,
 /obj/structure/disposalpipe/segment,
@@ -71379,7 +71379,7 @@
 "spY" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "sqd" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -71608,7 +71608,7 @@
 	name = "Skybridge Access"
 	},
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "stY" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 4
@@ -72747,7 +72747,7 @@
 "sIt" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "sIu" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/effect/turf_decal/siding/yellow,
@@ -73631,7 +73631,7 @@
 	dir = 1
 	},
 /turf/open/floor/fakeice/slippery,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "sSH" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/structure/flora/bush/flowers_yw/style_random,
@@ -73973,7 +73973,7 @@
 "sXl" = (
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "sXA" = (
 /obj/structure/flora/bush/jungle/c/style_random,
 /turf/open/misc/asteroid,
@@ -74764,7 +74764,7 @@
 "thA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "thK" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 6
@@ -77952,7 +77952,7 @@
 /obj/effect/spawner/random/structure/crate_loot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "tYx" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line,
 /obj/structure/cable,
@@ -79274,7 +79274,7 @@
 "uop" = (
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uos" = (
 /turf/open/floor/iron/dark/small,
 /area/station/science/sociology_lab)
@@ -79422,7 +79422,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uqr" = (
 /obj/effect/spawner/random/trash/hobo_squat,
 /obj/effect/spawner/random/trash/graffiti,
@@ -79450,7 +79450,7 @@
 /obj/effect/decal/cleanable/blood/gibs/up,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uqt" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible{
@@ -79608,7 +79608,7 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "urz" = (
 /obj/structure/window/reinforced{
 	dir = 8;
@@ -79838,7 +79838,7 @@
 "uux" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uve" = (
 /obj/effect/turf_decal/siding/yellow,
 /obj/effect/turf_decal/trimline/yellow/filled/warning,
@@ -80269,7 +80269,7 @@
 "uAb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uAe" = (
 /obj/machinery/door/airlock/wood{
 	name = "Sauna"
@@ -81217,14 +81217,14 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uOc" = (
 /obj/structure/flora/rock/style_random,
 /obj/effect/spawner/liquids_spawner{
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uOd" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -81261,7 +81261,7 @@
 "uOu" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/catwalk_floor/iron_smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uOD" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/landmark/xeno_spawn,
@@ -81362,7 +81362,7 @@
 /obj/item/toy/cards/deck/syndicate,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uPM" = (
 /obj/structure/closet/masks,
 /turf/open/floor/iron/dark/textured_large,
@@ -82204,7 +82204,7 @@
 /obj/structure/table/wood/poker,
 /obj/item/gun/ballistic/revolver/russian,
 /turf/open/floor/carpet/royalblack,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "uZv" = (
 /obj/machinery/duct,
 /turf/open/floor/iron/textured_large,
@@ -83060,7 +83060,7 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vlA" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/brown/filled/warning{
@@ -83629,7 +83629,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vsV" = (
 /obj/structure/chair/sofa/right/brown{
 	dir = 4
@@ -83644,7 +83644,7 @@
 /obj/structure/closet/firecloset,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vtr" = (
 /obj/structure/flora/rock/pile/style_3,
 /obj/item/wrench,
@@ -83704,7 +83704,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vuM" = (
 /obj/structure/cable,
 /turf/open/floor/iron/white/small,
@@ -84242,7 +84242,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vDk" = (
 /turf/open/floor/circuit/green,
 /area/station/ai_monitored/turret_protected/ai)
@@ -84339,7 +84339,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vEE" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/turf_decal/stripes/line{
@@ -84359,7 +84359,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vEV" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/effect/turf_decal/bot,
@@ -85060,7 +85060,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "vOs" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 4
@@ -86171,7 +86171,7 @@
 /turf/open/floor/fake_snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wdB" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -87203,7 +87203,7 @@
 "wqX" = (
 /obj/structure/rack,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wra" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 4
@@ -87214,7 +87214,7 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wrm" = (
 /turf/closed/wall/r_wall,
 /area/station/science/ordnance/freezerchamber)
@@ -87730,7 +87730,7 @@
 "wxg" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wxn" = (
 /obj/structure/barricade/wooden,
 /turf/open/misc/asteroid,
@@ -87946,7 +87946,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wAQ" = (
 /obj/effect/turf_decal/siding/white/end{
 	dir = 4
@@ -88015,7 +88015,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/sandyplating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wBB" = (
 /obj/structure/closet/emcloset,
 /obj/effect/turf_decal/bot,
@@ -88552,7 +88552,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wIM" = (
 /obj/machinery/fax{
 	fax_name = "Head of Security's Office";
@@ -89308,7 +89308,7 @@
 /obj/effect/spawner/random/structure/steam_vent,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "wUF" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 8
@@ -89873,7 +89873,7 @@
 	name = "Gamer Cave"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "xbl" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/flashlight/flare/candle/infinite{
@@ -90799,7 +90799,7 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "xop" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -93131,7 +93131,7 @@
 /obj/structure/rack,
 /obj/effect/spawner/random/entertainment/money,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "xUB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/curtain/cloth/fancy/mechanical{
@@ -93468,7 +93468,7 @@
 /obj/structure/table,
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "xYJ" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 9
@@ -93680,7 +93680,7 @@
 	reagent_list = list(/datum/reagent/water=600)
 	},
 /turf/open/misc/asteroid,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ycZ" = (
 /obj/effect/landmark/start/ai/secondary,
 /obj/item/radio/intercom/directional/north{
@@ -93950,7 +93950,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/large,
-/area/station/maintenance/aft)
+/area/station/maintenance/aft/greater)
 "ygJ" = (
 /obj/structure/table,
 /obj/effect/spawner/random/maintenance,
