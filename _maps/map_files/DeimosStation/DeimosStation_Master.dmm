@@ -1975,7 +1975,6 @@
 	},
 /obj/structure/closet/crate/internals,
 /obj/effect/turf_decal/bot,
-/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/gateway)
 "ayV" = (
@@ -2612,7 +2611,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot_white,
-/obj/machinery/light/directional/north,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/gateway)
 "aID" = (
@@ -10250,7 +10249,6 @@
 	pixel_y = -7;
 	pixel_x = 8
 	},
-/obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/smooth_half{
 	dir = 1
@@ -10977,6 +10975,7 @@
 "cIG" = (
 /obj/structure/closet/l3closet/scientist,
 /obj/effect/turf_decal/bot,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/gateway)
 "cIU" = (
@@ -38455,6 +38454,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/smooth_half,
 /area/station/ai_monitored/command/storage/eva)
 "jyZ" = (
@@ -39105,8 +39105,8 @@
 	},
 /obj/effect/turf_decal/trimline/dark_blue/filled/line,
 /obj/effect/turf_decal/trimline/dark_blue/filled/mid_joiner,
-/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/stripes/corner,
+/obj/machinery/light/dim/directional/south,
 /turf/open/floor/iron/smooth_half,
 /area/station/ai_monitored/command/storage/eva)
 "jGD" = (
@@ -39502,7 +39502,6 @@
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/obj/machinery/light/directional/east,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/smooth_large,
@@ -47053,9 +47052,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/maintenance/fore/lesser)
-"lFf" = (
-/turf/closed/wall,
-/area/space)
 "lFm" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/warning{
 	dir = 1
@@ -55696,6 +55692,7 @@
 	name = "EVA Storage"
 	},
 /obj/effect/turf_decal/bot,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/ai_monitored/command/storage/eva)
 "nMU" = (
@@ -59013,10 +59010,6 @@
 /area/station/medical/paramedic{
 	name = "Emergency Technician's Office"
 	})
-"oBQ" = (
-/obj/machinery/door/airlock/external,
-/turf/open/floor/plating/airless,
-/area/space)
 "oBX" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating/sandyplating,
@@ -59396,8 +59389,11 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/security/checkpoint/arrivals)
 "oFY" = (
-/turf/closed/wall/rust,
-/area/space)
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/ai_monitored/command/storage/eva)
 "oGa" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/effect/turf_decal/siding/yellow,
@@ -82096,6 +82092,7 @@
 	pixel_x = 8
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
@@ -86854,7 +86851,6 @@
 /obj/item/crowbar,
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/dark_blue/full,
-/obj/machinery/light/directional/west,
 /turf/open/floor/iron/smooth_large,
 /area/station/ai_monitored/command/storage/eva)
 "vkQ" = (
@@ -87240,6 +87236,7 @@
 	pixel_x = -8
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
@@ -87362,6 +87359,7 @@
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 8
 	},
+/obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/smooth_edge{
 	dir = 4
 	},
@@ -130271,7 +130269,7 @@ ojl
 iks
 vkO
 eqf
-eqf
+oFY
 eqf
 vBy
 ojl
@@ -141436,7 +141434,7 @@ cAI
 gkK
 gkK
 gkK
-oFY
+igj
 lZk
 uyB
 cAI
@@ -141691,11 +141689,11 @@ cAI
 qcF
 gkK
 gkK
-lFf
-lFf
-oFY
-oBQ
-oFY
+qcF
+qcF
+igj
+qBA
+igj
 gkK
 gkK
 cAI
@@ -146582,7 +146580,7 @@ hvS
 hvS
 gPK
 hvS
-hvS
+dqp
 hvS
 hvS
 hvS
@@ -146837,7 +146835,7 @@ hvS
 hvS
 hvS
 hvS
-hvS
+gPK
 hvS
 hvS
 hvS
@@ -147094,7 +147092,7 @@ hvS
 hvS
 hvS
 hvS
-hvS
+dqp
 hvS
 hvS
 hvS
