@@ -212,7 +212,10 @@
 /turf/open/floor/wood/large,
 /area/station/command/bridge)
 "aaS" = (
-/turf/open/floor/iron/dark/smooth_edge{
+/obj/effect/turf_decal/trimline/green/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
 /area/station/service/hydroponics)
@@ -12301,7 +12304,7 @@
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/station/service/hydroponics)
 "cXR" = (
 /obj/effect/turf_decal/siding/yellow/corner,
@@ -12326,7 +12329,7 @@
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/station/service/hydroponics)
 "cYf" = (
 /obj/machinery/disposal/bin,
@@ -20887,7 +20890,7 @@
 /obj/machinery/vending/hydronutrients,
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/station/service/hydroponics)
 "fdF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28129,7 +28132,10 @@
 /obj/effect/turf_decal/stripes/asteroid/corner{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_edge{
+/obj/effect/turf_decal/trimline/green/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
 /area/station/service/hydroponics)
@@ -46251,7 +46257,7 @@
 /obj/machinery/vending/hydroseeds,
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/station/service/hydroponics)
 "llt" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line,
@@ -49904,7 +49910,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light/dim/directional/north,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/station/service/hydroponics)
 "mgo" = (
 /obj/structure/table,
@@ -61529,10 +61535,13 @@
 /turf/open/floor/grass,
 /area/station/maintenance/aft/upper)
 "oTV" = (
+/obj/effect/turf_decal/trimline/green/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 5
 	},
-/turf/open/floor/iron/dark/smooth_edge{
+/turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
 /area/station/service/hydroponics)
@@ -80958,10 +80967,13 @@
 /turf/open/floor/iron,
 /area/station/cargo/lobby)
 "tAR" = (
+/obj/effect/turf_decal/trimline/green/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/smooth_edge{
+/turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
 /area/station/service/hydroponics)
@@ -91637,6 +91649,9 @@
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light/dim/directional/east,
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/service/hydroponics)
 "waS" = (
