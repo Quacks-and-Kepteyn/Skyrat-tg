@@ -12594,9 +12594,7 @@
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
 "cWY" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/random,
 /turf/open/floor/carpet/blue,
 /area/station/hallway/primary/aft)
 "cXf" = (
@@ -13866,12 +13864,10 @@
 /turf/open/floor/iron/vaporwave,
 /area/station/service/barber)
 "dnw" = (
-/obj/effect/turf_decal/trimline/neutral/filled/warning{
-	dir = 4
-	},
-/turf/open/floor/iron/textured_edge{
-	dir = 8
-	},
+/obj/machinery/light/dim/directional/east,
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/structure/hedge,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/aft)
 "dnx" = (
 /obj/effect/turf_decal/siding/wood{
@@ -14010,12 +14006,12 @@
 	},
 /area/station/engineering/hallway)
 "doW" = (
-/obj/structure/hedge,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
+/obj/machinery/light/dim/directional/west,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
 	},
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/bamboo,
+/obj/structure/hedge,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/aft)
 "doX" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -17265,11 +17261,11 @@
 /turf/open/floor/iron/textured_edge,
 /area/station/hallway/secondary/service)
 "eex" = (
-/obj/effect/turf_decal/trimline/neutral/filled/corner{
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 8
 	},
-/turf/open/floor/iron/textured_corner{
-	dir = 8
+/turf/open/floor/iron/textured_edge{
+	dir = 4
 	},
 /area/station/hallway/primary/aft)
 "eeM" = (
@@ -24174,11 +24170,10 @@
 /turf/open/floor/stone,
 /area/station/service/abandoned_gambling_den)
 "fLc" = (
-/obj/structure/hedge,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 10
 	},
-/turf/open/floor/bamboo,
+/turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "fLd" = (
 /obj/machinery/disposal/bin,
@@ -27049,12 +27044,12 @@
 /turf/open/floor/wood/large,
 /area/station/service/theater)
 "gtH" = (
-/obj/effect/turf_decal/trimline/neutral/filled/warning{
-	dir = 8
-	},
-/turf/open/floor/iron/textured_edge{
-	dir = 4
-	},
+/obj/structure/flora/rock/pile/jungle/style_random,
+/obj/structure/flora/bush/jungle/b/style_random,
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/flora/bush/lavendergrass/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/grass,
 /area/station/hallway/primary/aft)
 "gtN" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -29688,11 +29683,10 @@
 /turf/open/floor/plating,
 /area/station/common/pool)
 "gYd" = (
-/obj/structure/hedge,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 6
 	},
-/turf/open/floor/bamboo,
+/turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "gYq" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line,
@@ -48396,12 +48390,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/greater)
 "lwI" = (
-/obj/structure/flora/rock/pile/jungle/style_random,
-/obj/structure/flora/bush/jungle/b/style_random,
-/obj/structure/window/reinforced/fulltile,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/floor/grass,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/structure/hedge,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/aft)
 "lwX" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning{
@@ -52415,13 +52408,12 @@
 /turf/open/floor/iron/smooth_large,
 /area/station/maintenance/abandoned_shuttlebay)
 "mtM" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
+/obj/effect/turf_decal/trimline/neutral/filled/warning{
+	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 1
+/turf/open/floor/iron/textured_edge{
+	dir = 8
 	},
-/turf/open/floor/bamboo,
 /area/station/hallway/primary/aft)
 "mtP" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -55939,12 +55931,10 @@
 /turf/open/floor/iron/textured,
 /area/station/hallway/secondary/entry)
 "nlI" = (
-/obj/structure/hedge,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
+/obj/effect/turf_decal/trimline/neutral/filled/warning,
+/turf/open/floor/iron/textured_edge{
+	dir = 1
 	},
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/bamboo,
 /area/station/hallway/primary/aft)
 "nlK" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -62132,13 +62122,11 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/security/checkpoint/arrivals)
 "oFX" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
 /obj/effect/turf_decal/siding/wood/corner{
-	dir = 4
+	dir = 1
 	},
-/turf/open/floor/bamboo,
+/obj/structure/hedge,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/aft)
 "oFY" = (
 /obj/machinery/suit_storage_unit/standard_unit,
@@ -78893,13 +78881,11 @@
 /area/station/maintenance/aft/upper)
 "sAx" = (
 /obj/machinery/light/dim/directional/east,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/turf/open/floor/bamboo,
+/obj/structure/hedge,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/aft)
 "sAD" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
@@ -93393,13 +93379,11 @@
 /area/station/commons/dorms)
 "vRu" = (
 /obj/machinery/light/dim/directional/west,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/turf/open/floor/bamboo,
+/obj/structure/hedge,
+/turf/open/floor/iron/dark/textured_large,
 /area/station/hallway/primary/aft)
 "vRv" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -98589,9 +98573,11 @@
 /turf/open/floor/grass,
 /area/station/science/lobby)
 "xcv" = (
-/obj/effect/turf_decal/trimline/neutral/filled/warning,
-/turf/open/floor/iron/textured_edge{
-	dir = 1
+/obj/effect/turf_decal/trimline/neutral/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/textured_corner{
+	dir = 8
 	},
 /area/station/hallway/primary/aft)
 "xcz" = (
@@ -133958,13 +133944,13 @@ fHL
 upM
 pWF
 vni
+vni
 bHQ
-dnw
-dnw
-dnw
-dnw
-dnw
-dnw
+mtM
+mtM
+mtM
+mtM
+mtM
 sVp
 vni
 mlc
@@ -134215,9 +134201,9 @@ enS
 vZD
 ndl
 vni
-xcv
+bHQ
 gYd
-doW
+dnw
 sVa
 sVa
 sVa
@@ -134479,7 +134465,7 @@ ylG
 jwQ
 sCw
 cti
-oFX
+lwI
 lBk
 pYN
 soX
@@ -134729,7 +134715,7 @@ vps
 dqt
 ndl
 vni
-xcv
+nlI
 fpJ
 eTN
 lfu
@@ -135501,7 +135487,7 @@ iJh
 ndl
 vni
 soX
-lwI
+gtH
 kWS
 eMg
 oJT
@@ -136021,7 +136007,7 @@ vqm
 aIN
 tMd
 cti
-mtM
+oFX
 lBk
 pYN
 soX
@@ -136273,7 +136259,7 @@ ndl
 vni
 xcv
 fLc
-nlI
+doW
 uug
 uug
 uug
@@ -136528,13 +136514,13 @@ rVK
 aTU
 xNL
 vni
+vni
+xcv
 eex
-gtH
-gtH
-gtH
-gtH
-gtH
-gtH
+eex
+eex
+eex
+eex
 izX
 vni
 pYN
