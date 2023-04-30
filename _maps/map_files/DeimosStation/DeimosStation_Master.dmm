@@ -15659,6 +15659,9 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
+"dJB" = (
+/turf/closed/wall/rust,
+/area/station/hallway/secondary/entry)
 "dJI" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -26814,6 +26817,9 @@
 	},
 /turf/open/floor/carpet/green,
 /area/station/commons/lounge)
+"goG" = (
+/turf/closed/wall/rust,
+/area/station/maintenance/aft/upper)
 "goM" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/corner{
 	dir = 1
@@ -35581,6 +35587,9 @@
 	dir = 4
 	},
 /area/station/science/lobby)
+"ipb" = (
+/turf/closed/wall/rust,
+/area/station/cargo/office)
 "ipg" = (
 /obj/effect/spawner/random/structure/tank_holder,
 /obj/effect/decal/cleanable/dirt,
@@ -38468,6 +38477,9 @@
 "jco" = (
 /turf/closed/wall/r_wall,
 /area/station/science/xenobiology/hallway)
+"jcq" = (
+/turf/closed/wall/rust,
+/area/station/service/janitor)
 "jcw" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 4
@@ -41292,6 +41304,9 @@
 "jMK" = (
 /turf/closed/mineral/random/labormineral,
 /area/station/engineering/atmos/pumproom)
+"jMP" = (
+/turf/closed/wall/rust,
+/area/station/commons/lounge)
 "jMS" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -41619,6 +41634,9 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/ai_monitored/security/armory)
+"jQf" = (
+/turf/closed/wall/rust,
+/area/station/commons/storage/primary)
 "jQh" = (
 /obj/item/kirbyplants/dead,
 /turf/open/floor/iron/dark/smooth_large,
@@ -47552,6 +47570,9 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/station/cargo/office)
+"llI" = (
+/turf/closed/wall/rust,
+/area/station/cargo/mailroom)
 "llQ" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 4
@@ -52425,6 +52446,9 @@
 	},
 /turf/open/floor/iron/textured,
 /area/station/hallway/secondary/service)
+"mts" = (
+/turf/closed/wall/rust,
+/area/station/service/hydroponics)
 "mtt" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
@@ -55224,6 +55248,9 @@
 	dir = 8
 	},
 /area/station/cargo/storage)
+"ncq" = (
+/turf/closed/wall/rust,
+/area/station/service/bar)
 "ncv" = (
 /obj/effect/spawner/random/trash/grime,
 /turf/open/floor/iron/dark,
@@ -60960,6 +60987,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
+"oqX" = (
+/turf/closed/wall/rust,
+/area/station/command/heads_quarters/qm)
 "oru" = (
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
@@ -61451,6 +61481,9 @@
 "oye" = (
 /turf/closed/mineral/random/labormineral,
 /area/station/hallway/secondary/construction)
+"oyj" = (
+/turf/closed/wall/rust,
+/area/station/cargo/lobby)
 "oym" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -61649,6 +61682,9 @@
 "oAy" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/power_room)
+"oAz" = (
+/turf/closed/wall/rust,
+/area/station/service/barber)
 "oAB" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/mapping_helpers/broken_floor,
@@ -70339,6 +70375,9 @@
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/carpet/royalblack,
 /area/station/service/chapel/office)
+"qBF" = (
+/turf/closed/wall/rust,
+/area/station/cargo/storage)
 "qBM" = (
 /obj/effect/turf_decal/trimline/brown/filled/corner{
 	dir = 1
@@ -89827,6 +89866,9 @@
 	dir = 4
 	},
 /area/station/hallway/secondary/command)
+"uXE" = (
+/turf/closed/wall/rust,
+/area/station/cargo/warehouse)
 "uXF" = (
 /obj/machinery/computer/slot_machine{
 	pixel_y = 2
@@ -90654,6 +90696,9 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/security/checkpoint/escape)
+"vhu" = (
+/turf/closed/wall/rust,
+/area/station/security/checkpoint/arrivals)
 "vhv" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Chapel Office"
@@ -138566,7 +138611,7 @@ uIe
 bTk
 gvb
 lfp
-kYy
+jcq
 kYy
 kYy
 kYy
@@ -138823,7 +138868,7 @@ yma
 jsb
 buQ
 ijC
-xVt
+dJB
 aaO
 tqW
 nQR
@@ -140067,18 +140112,18 @@ vlg
 xRN
 bwj
 wKy
-wKy
+mts
 wKy
 jOa
 jOa
 wKy
-wKy
+mts
 wKy
 jOa
 jOa
 gqv
 gqv
-uCq
+oAz
 ccY
 aed
 pYj
@@ -140336,7 +140381,7 @@ gAB
 cYi
 gqv
 uCq
-uCq
+oAz
 uCq
 uCq
 uCq
@@ -140866,7 +140911,7 @@ kkL
 xkY
 pSP
 lAf
-mFA
+ncq
 eSr
 pJv
 fqK
@@ -141635,7 +141680,7 @@ fnh
 mFA
 mFA
 mFA
-mFA
+ncq
 mFA
 mFA
 roj
@@ -142166,7 +142211,7 @@ obm
 cxW
 bwP
 jRT
-mLI
+vhu
 ryj
 bAr
 wTh
@@ -142378,7 +142423,7 @@ gXN
 eIl
 jXL
 lKH
-wKy
+mts
 gqv
 cYi
 wUd
@@ -142423,7 +142468,7 @@ dPU
 rCn
 pZw
 lVD
-mLI
+vhu
 faR
 vTP
 tVl
@@ -142649,8 +142694,8 @@ ofc
 cYi
 gqv
 wKy
-wKy
-wKy
+mts
+mts
 wKy
 wKy
 wKy
@@ -142904,7 +142949,7 @@ wrp
 xoc
 viV
 wKy
-wKy
+mts
 wKy
 eLy
 eks
@@ -142918,17 +142963,17 @@ vJW
 cbr
 sXJ
 mFA
+ncq
 mFA
 mFA
 mFA
-mFA
-mFA
+ncq
 mFA
 tzg
 tzg
 mFA
 mFA
-cBN
+jMP
 cBN
 cBN
 bXG
@@ -144205,11 +144250,11 @@ paE
 seI
 xJz
 wsW
-kOM
+oyj
 jaP
 iBw
 jST
-hTA
+jQf
 eoH
 jKW
 pmy
@@ -144230,8 +144275,8 @@ dAR
 xVt
 xVt
 xVt
-xVt
-xVt
+dJB
+dJB
 xVt
 dAR
 kut
@@ -144430,7 +144475,7 @@ bmp
 fNb
 moi
 tzC
-fNb
+mpa
 kue
 pPL
 mef
@@ -144466,7 +144511,7 @@ mDu
 rFL
 bEE
 eKh
-hTA
+jQf
 bMj
 rwT
 vZT
@@ -144502,7 +144547,7 @@ dAR
 aKz
 dAR
 gkK
-xVt
+dJB
 mGv
 xVt
 gkK
@@ -144681,7 +144726,7 @@ fsu
 nHx
 cLY
 nXD
-fNb
+mpa
 lpg
 ivr
 fNb
@@ -145491,7 +145536,7 @@ jVk
 biu
 xNM
 xNM
-sCd
+goG
 kPU
 dyi
 hTA
@@ -145717,7 +145762,7 @@ sRu
 sRu
 sRu
 sRu
-sRu
+uXE
 sRu
 sRu
 reo
@@ -145727,7 +145772,7 @@ fCd
 fCd
 uZU
 reo
-reo
+llI
 veO
 jNK
 uwP
@@ -145751,7 +145796,7 @@ xNM
 wkL
 laa
 uPo
-hTA
+jQf
 bMj
 eCE
 dsQ
@@ -145970,7 +146015,7 @@ ccD
 hDA
 gVM
 olB
-sRu
+uXE
 euS
 nHY
 ylx
@@ -146008,7 +146053,7 @@ bgN
 lat
 ulA
 csq
-hTA
+jQf
 eoH
 ogF
 gbi
@@ -146477,7 +146522,7 @@ qhZ
 oBd
 eSd
 dFv
-nHx
+pOf
 iKr
 iKr
 prE
@@ -146518,7 +146563,7 @@ pLg
 boR
 xLT
 eiq
-xNM
+ipb
 lrv
 kxZ
 gNC
@@ -147027,11 +147072,11 @@ ftG
 hKV
 nKW
 nKW
+oqX
 nKW
 nKW
 nKW
-nKW
-nKW
+oqX
 nKW
 rfT
 wgO
@@ -147039,7 +147084,7 @@ wGd
 hTX
 jaP
 jaP
-sCd
+goG
 sCd
 unv
 unv
@@ -147505,7 +147550,7 @@ iae
 fKw
 cVD
 jXh
-nHx
+pOf
 rXC
 aFH
 fNb
@@ -147514,12 +147559,12 @@ siB
 olh
 sRu
 sRu
+uXE
 sRu
 sRu
+uXE
 sRu
-sRu
-sRu
-sRu
+uXE
 sRu
 wgo
 ekZ
@@ -147762,7 +147807,7 @@ uiU
 axv
 edM
 nqU
-nHx
+pOf
 iKr
 fNb
 fNb
@@ -148831,7 +148876,7 @@ dSc
 wmN
 xmX
 eyf
-nKW
+oqX
 vdm
 scK
 eQa
@@ -149062,7 +149107,7 @@ fMU
 fMU
 fMU
 fMU
-fMU
+ilU
 fMU
 gIF
 cuF
@@ -149083,7 +149128,7 @@ bnd
 xaI
 seV
 dwi
-vvo
+qBF
 ulJ
 rEi
 lHB
@@ -149599,8 +149644,8 @@ qvA
 pcs
 vvo
 nKW
-nKW
-nKW
+oqX
+oqX
 nKW
 nKW
 kHL
@@ -150091,7 +150136,7 @@ bkr
 myR
 bkr
 fMU
-fMU
+ilU
 pGz
 hPx
 hPx
@@ -150115,7 +150160,7 @@ dwi
 jaP
 sCd
 eIt
-sCd
+goG
 sCd
 sCd
 vQa
@@ -150363,7 +150408,7 @@ avG
 ftG
 ftG
 vvo
-vvo
+qBF
 vvo
 vvo
 dwi
@@ -150599,7 +150644,7 @@ wlB
 wlB
 wlB
 wlB
-fMU
+ilU
 lwz
 giR
 afM
@@ -150631,7 +150676,7 @@ oTT
 jLI
 nNF
 tkV
-sCd
+goG
 bOX
 sCd
 jaP
