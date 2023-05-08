@@ -24,6 +24,7 @@
 	show_bolt_icon = FALSE
 	tac_reloads = FALSE
 	burst_size = 1
+	actions_types = list()
 	pin = /obj/item/firing_pin/implant/mindshield
 	mag_display_ammo = FALSE
 	mag_display = FALSE
@@ -117,7 +118,7 @@
 
 /obj/item/ammo_casing/smart/caseless
 	firing_effect_type = null
-	heavy_metal = FALSE
+	is_cased_ammo = FALSE
 
 /obj/item/ammo_casing/smart/caseless/fire_casing(atom/target, mob/living/user, params, distro, quiet, zone_override, spread, atom/fired_from)
 	if (!..()) //failed firing
