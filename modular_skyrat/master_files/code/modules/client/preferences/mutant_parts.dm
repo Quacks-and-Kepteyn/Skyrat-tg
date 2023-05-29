@@ -49,7 +49,7 @@
 /datum/preference/toggle/eye_emissives/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
 	value = value && preferences && is_allowed(preferences)
 
-	var/obj/item/organ/internal/eyes/eyes_organ = target.getorgan(/obj/item/organ/internal/eyes)
+	var/obj/item/organ/internal/eyes/eyes_organ = target.get_organ_by_type(/obj/item/organ/internal/eyes)
 	target.emissive_eyes = value
 	if (istype(eyes_organ))
 		eyes_organ.is_emissive = value
@@ -507,12 +507,14 @@
 	savefile_identifier = PREFERENCE_CHARACTER
 	savefile_key = "ipc_antenna_color"
 	relevant_mutant_bodypart = MUTANT_SYNTH_ANTENNA
+	type_to_check = /datum/preference/choiced/mutant_choice/synth_antenna
 
 /datum/preference/tri_bool/synth_antenna_emissive
 	category = PREFERENCE_CATEGORY_SECONDARY_FEATURES
 	savefile_identifier = PREFERENCE_CHARACTER
 	savefile_key = "ipc_antenna_emissive"
 	relevant_mutant_bodypart = MUTANT_SYNTH_ANTENNA
+	type_to_check = /datum/preference/choiced/mutant_choice/synth_antenna
 
 /// IPC Chassis
 

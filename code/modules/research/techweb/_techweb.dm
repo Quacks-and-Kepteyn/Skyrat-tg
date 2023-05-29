@@ -30,7 +30,7 @@
 	var/list/deconstructed_items = list()
 	/// Available research points, type = number
 	var/list/research_points = list()
-	/// IC logs
+	/// Game logs of research nodes, "node_name" "node_cost" "node_researcher" "node_research_location"
 	var/list/research_logs = list()
 	/// Current per-second production, used for display only.
 	var/list/last_bitcoins = list()
@@ -143,12 +143,11 @@
 		l[i] = amount
 	modify_point_list(l)
 
-/datum/techweb/proc/copy_research_to(datum/techweb/receiver, unlock_hidden = TRUE) //Adds any missing research to theirs.
-	if(unlock_hidden)
-		for(var/i in receiver.hidden_nodes)
-			CHECK_TICK
-			if(available_nodes[i] || researched_nodes[i] || visible_nodes[i])
-				receiver.hidden_nodes -= i //We can see it so let them see it too.
+/datum/techweb/proc/copy_research_to(datum/techweb/receiver) //Adds any missing research to theirs.
+	for(var/i in receiver.hidden_nodes)
+		CHECK_TICK
+		if(available_nodes[i] || researched_nodes[i] || visible_nodes[i])
+			receiver.hidden_nodes -= i //We can see it so let them see it too.
 	for(var/i in researched_nodes)
 		CHECK_TICK
 		receiver.research_node_id(i, TRUE, FALSE, FALSE)
@@ -216,6 +215,8 @@
 		add_to[design.id] = TRUE
 	else
 		researched_designs[design.id] = TRUE
+
+	hidden_nodes -= design.id
 
 	return TRUE
 

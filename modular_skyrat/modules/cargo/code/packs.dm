@@ -28,6 +28,20 @@
 	for(var/i in 1 to 5)
 		new /mob/living/basic/mouse(.)
 
+/datum/supply_pack/critter/chinchilla
+	name = "Chinchilla Crate"
+	desc = "Contains four chinchillas. Dust not included."
+	cost = CARGO_CRATE_VALUE * 7
+	contains = list(
+		/mob/living/basic/pet/chinchilla,
+	)
+	crate_name = "chinchilla crate"
+
+/datum/supply_pack/critter/chinchilla/generate()
+	. = ..()
+	for(var/i in 1 to 3)
+		new /mob/living/basic/pet/chinchilla(.)
+
 /*
 *	MEDICAL
 */
@@ -262,12 +276,12 @@
 *	MISC
 */
 
-/datum/supply_pack/misc/medibeam //Moved to Misc so Medical can't order them for free through department consoles and break the economy.
-	name = "Medical Beam Gun"
-	desc = "Nanotrasen offers you, for an exorbatant fee, the ability to lease one of their ERTs favorite gadgets, the Medical Beam Gun"
+/datum/supply_pack/misc/speedbike //If you see this bought in game, its time to nerf a cargo exploit.
+	name = "Speedbike"
+	desc = "Put your shades on, saddle up, and ride off directly into the sun on this turbo deluxe space-cruising speedbike."
 	cost = 1000000 //Special case, we don't want to make this in terms of crates because having bikes be a million credits is the whole meme.
-	contains = list(/obj/item/gun/medbeam)
-	crate_name = "medical beamgun crate"
+	contains = list(/obj/vehicle/ridden/speedbike)
+	crate_name = "speedbike crate"
 
 /datum/supply_pack/misc/painting
 	name = "Advanced Art Supplies"
@@ -631,8 +645,8 @@
 		/obj/item/claymore/weak/weaker,
 		/obj/item/clothing/suit/armor/vest/cuirass/larp,
 		/obj/item/clothing/suit/armor/vest/cuirass/larp,
-		/obj/item/gun/ballistic/bow,
-		/obj/item/gun/ballistic/bow,
+		/obj/item/gun/ballistic/bow/longbow,
+		/obj/item/gun/ballistic/bow/longbow,
 		/obj/item/storage/bag/quiver,
 		/obj/item/storage/bag/quiver,
 		/obj/item/clothing/head/helmet/knight/red,
@@ -652,8 +666,8 @@
 		/obj/item/seeds/lavaland/inocybe,
 		/obj/item/seeds/lavaland/ember,
 		/obj/item/seeds/lavaland/seraka,
-		/obj/item/seeds/star_cactus,
-		/obj/item/seeds/star_cactus,
+		/obj/item/seeds/lavaland/fireblossom,
+		/obj/item/seeds/lavaland/cactus,
 	)
 	crate_name = "planetary seeds crate"
 	crate_type = /obj/structure/closet/crate/hydroponics
@@ -694,7 +708,7 @@
 	for(var/i in 1 to 19)
 		new /obj/item/grown/log(.)
 
-/datum/supply_pack/security/armory/russian
+/datum/supply_pack/imports/cin_surplus
 	name = "CIN Military Surplus Crate"
 	desc = "A collection of surplus equipment sourced from the Coalition of Independent Nations' military stockpiles. Likely to contain old and outdated equipment, as is the nature of surplus."
 	contraband = TRUE
@@ -702,7 +716,7 @@
 	contains = list(
 		/obj/item/crucifix = 3,
 		/obj/item/storage/box/nri_rations = 3,
-		/obj/item/storage/toolbox/ammo = 1,
+		/obj/item/storage/toolbox/a762 = 1,
 		/obj/item/storage/toolbox/maint_kit = 1,
 		/obj/item/gun/ballistic/rifle/boltaction = 1,
 		/obj/item/ammo_box/a762 = 3,
@@ -721,7 +735,7 @@
 		/obj/item/clothing/mask/balaclavaadjust = 3,
 	)
 
-/datum/supply_pack/security/armory/russian/fill(obj/structure/closet/crate/we_are_filling_this_crate)
+/datum/supply_pack/imports/cin_surplus/fill(obj/structure/closet/crate/we_are_filling_this_crate)
 	for(var/i in 1 to 10)
 		var/item = pick_weight(contains)
 		new item(we_are_filling_this_crate)
@@ -741,61 +755,3 @@
 	desc = "Contains a single restock for the Fab-O-Vend, great for those who are indecisive about their looks."
 	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/item/vending_refill/barbervend)
-
-//NIF CARGO ITEMS
-/datum/supply_pack/goody/standard_nif
-	name = "Standard Type NIF"
-	desc = "Contains a single standard NIF by itself, surgery is required."
-	cost = CARGO_CRATE_VALUE * 15
-	contains = list(
-		/obj/item/organ/internal/cyberimp/brain/nif/standard,
-	)
-
-/datum/supply_pack/goody/cheap_nif
-	name = "Econo-Deck Type NIF"
-	desc = "Contains a single Econo-Deck NIF by itself, surgery is required."
-	cost = CARGO_CRATE_VALUE * 7.5
-	contains = list(
-		/obj/item/organ/internal/cyberimp/brain/nif/roleplay_model,
-	)
-
-/datum/supply_pack/goody/nif_repair_kit
-	name = "Cerulean NIF Regenerator"
-	desc = "Contains a single container of NIF repair fluid, good for up to 5 uses."
-	cost = CARGO_CRATE_VALUE * 3
-	contains = list(
-		/obj/item/nif_repair_kit,
-	)
-
-/datum/supply_pack/goody/money_sense_nifsoft
-	name = "Automatic Appraisal NIFSoft"
-	desc = "Contains a single Automatic Appraisal NIFSoft uploader disk."
-	cost = CARGO_CRATE_VALUE * 2
-	contains = list(
-		/obj/item/disk/nifsoft_uploader/money_sense,
-	)
-
-/datum/supply_pack/goody/shapeshifter_nifsoft
-	name = "Polymorph NIFSoft"
-	desc = "Contains a single Polymorph NIFSoft uploader disk."
-	cost = CARGO_CRATE_VALUE * 2
-	contains = list(
-		/obj/item/disk/nifsoft_uploader/shapeshifter,
-	)
-
-/datum/supply_pack/goody/hivemind_nifsoft
-	name = "Hivemind NIFSoft"
-	desc = "Contains a single Hivemind NIFSoft uploader disk."
-	cost = CARGO_CRATE_VALUE * 2
-	contains = list(
-		/obj/item/disk/nifsoft_uploader/hivemind,
-	)
-
-/datum/supply_pack/goody/summoner_nifsoft
-	name = "Grimoire Caeruleam NIFSoft"
-	desc = "Contains a single Grimoire Caeruleam NIFSoft uploader disk."
-	cost = CARGO_CRATE_VALUE * 1
-	contains = list(
-		/obj/item/disk/nifsoft_uploader/summoner,
-	)
-
