@@ -14076,9 +14076,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/ai_monitored/command/nuke_storage)
-"dpf" = (
-/turf/open/floor/plating/sandyplating/airless,
-/area/station/maintenance/port)
 "dpp" = (
 /obj/effect/turf_decal/tile/dark_blue/full,
 /obj/structure/closet/secure_closet/tac{
@@ -16995,10 +16992,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
-"dZL" = (
-/obj/structure/lattice/catwalk,
-/turf/open/misc/asteroid/airless,
-/area/space)
 "dZR" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -22708,9 +22701,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/maintenance/department/science/xenobiology)
-"frK" = (
-/turf/closed/wall/r_wall,
-/area/space)
 "frM" = (
 /obj/structure/table/wood,
 /obj/machinery/door/firedoor,
@@ -25791,7 +25781,9 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "geO" = (
 /obj/machinery/door/airlock/hatch{
 	name = "MiniSat Antechamber"
@@ -34211,9 +34203,6 @@
 /obj/effect/spawner/random/structure/girder,
 /turf/open/misc/asteroid,
 /area/station/maintenance/aft/upper)
-"hZF" = (
-/turf/closed/wall,
-/area/space/nearstation)
 "hZN" = (
 /obj/effect/turf_decal/tile/dark_red/half/contrasted,
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -44850,13 +44839,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
-"kHh" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/burgundy{
-	name = "landing marker"
-	},
-/turf/open/misc/asteroid/airless,
-/area/space)
 "kHn" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 9
@@ -58656,10 +58638,6 @@
 /area/station/science/lower{
 	name = "\improper Upper Science Division"
 	})
-"nSC" = (
-/obj/structure/lattice,
-/turf/open/misc/asteroid/airless,
-/area/space)
 "nSI" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -58670,7 +58648,7 @@
 	width = 3
 	},
 /turf/open/floor/plating/sandyplating/airless,
-/area/station/maintenance/port)
+/area/space/nearstation)
 "nSJ" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/costume/tv_head,
@@ -63574,7 +63552,7 @@
 /area/station/medical/virology)
 "oXZ" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/space/nearstation)
+/area/station/maintenance/port)
 "oYc" = (
 /obj/machinery/atmospherics/pipe/bridge_pipe/cyan/visible{
 	dir = 4
@@ -90474,10 +90452,6 @@
 /obj/effect/spawner/random/engineering/flashlight,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
-"vhW" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space)
 "via" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/iron/white/smooth_large,
@@ -95285,10 +95259,6 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/iron/grimy,
 /area/station/commons/vacant_room/office)
-"wnv" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
 "wnw" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 4
@@ -96494,7 +96464,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/sandyplating/airless,
-/area/space)
+/area/space/nearstation)
 "wBC" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 6
@@ -103134,17 +103104,11 @@
 "yiy" = (
 /mob/living/simple_animal/chicken{
 	name = "Wardel";
-	desc = "Once the warden's pet, Wardel is on death row for a string of viscous, first degree murders."
-/obj/structure/disposalpipe/segment{
-	dir = 4
+	desc = "Once the warden's pet, Wardel is on death row for a string of viscous, first degree murders."/obj/structure/disposalpipe/segment{dir=4
 	},
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/security/prison)
-/obj/effect/turf_decal/trimline/neutral/filled/corner,
-/obj/effect/turf_decal/stripes/asteroid/corner,
-/turf/open/floor/iron/corner,
-/area/station/hallway/primary/central)
 "yiG" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/machinery/light/dim/directional/west,
@@ -115688,7 +115652,7 @@ urs
 fAb
 fAb
 fAb
-iws
+fAb
 cAI
 hvS
 hvS
@@ -115945,7 +115909,7 @@ hhp
 cQG
 wnE
 bwX
-iws
+fAb
 hvS
 hvS
 hvS
@@ -117487,7 +117451,7 @@ gna
 peq
 mGY
 peq
-frK
+fAb
 hvS
 hvS
 hvS
@@ -117744,7 +117708,7 @@ fAb
 fAb
 fAb
 fAb
-frK
+fAb
 hvS
 gPK
 hCB
@@ -121854,12 +121818,12 @@ hvS
 hvS
 hvS
 hvS
-wnv
+gPK
 hvS
-wnv
+gPK
 hvS
-kQr
-kQr
+cAI
+cAI
 cAI
 gkK
 bDc
@@ -122111,12 +122075,12 @@ hvS
 hvS
 hvS
 hvS
-kHh
-vhW
-wnv
-dZL
 ffp
-nSC
+hCB
+gPK
+sRH
+ffp
+jhT
 jhT
 byb
 bDc
@@ -122371,7 +122335,7 @@ hvS
 gPK
 hvS
 wBB
-kQr
+cAI
 jhT
 cAI
 gkK
@@ -122632,7 +122596,7 @@ mbi
 jhT
 gkK
 gkK
-gkK
+bDc
 bDc
 bDc
 bDc
@@ -122888,8 +122852,8 @@ mbi
 mbi
 oXZ
 gkK
-gkK
-gkK
+bDc
+bDc
 bDc
 bDc
 bDc
@@ -123139,14 +123103,14 @@ cAI
 cAI
 cAI
 cAI
-hZF
+ewt
 mbi
 mbi
 mbi
-hZF
-gkK
-gkK
-gkK
+ewt
+bDc
+bDc
+bDc
 bDc
 bDc
 bDc
@@ -123397,12 +123361,12 @@ gkK
 gkK
 ksq
 ewt
-dpf
+mbi
 nSI
-dpf
+mbi
 tQE
-gkK
-gkK
+bDc
+bDc
 bDc
 bDc
 bDc
@@ -123658,8 +123622,8 @@ xJG
 rPm
 xJG
 tQE
-gkK
-gkK
+bDc
+bDc
 bDc
 bDc
 bDc
@@ -123907,9 +123871,9 @@ cAI
 cAI
 gkK
 gkK
-hZF
-hZF
-hZF
+ewt
+ewt
+ewt
 ewt
 tgv
 hSI
