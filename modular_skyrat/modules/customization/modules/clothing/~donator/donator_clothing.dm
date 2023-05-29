@@ -1109,6 +1109,8 @@
 	icon = 'modular_skyrat/modules/aesthetics/posters/contraband.dmi'
 	icon_state = "korpsposter"
 
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/korpstech, 32)
+
 // Donation reward for Kay-Nite
 /obj/item/clothing/glasses/eyepatch/rosecolored
 	name = "rose-colored eyepatch"
@@ -1488,7 +1490,7 @@
 	worn_icon = 'modular_skyrat/master_files/icons/donator/mob/clothing/suit.dmi'
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-//Donation reward for Razurath
+//Public donation reward for Razurath
 /obj/item/clothing/suit/toggle/digicoat/glitched
 	name = "hacked digicoat"
 	desc = "Glitched images display across the back. Cool!"
@@ -1506,3 +1508,69 @@
 	desc = "A sinister colored jacket from a familiar company."
 	base_icon_state = "digicoat_interdyne"
 	icon_state = "digicoat_interdyne"
+
+/obj/item/clothing/suit/armor/hos/elofy
+	name = "solar admiral coat"
+	desc = "A traditional naval officer uniform of the late 63rd Expeditionary Fleet. This faithful recreation bears the admiral's crest of the Luna Wolves Legion. It is uniquely tailored to the form of a certain wolf girl."
+	icon = 'modular_skyrat/master_files/icons/donator/obj/clothing/suits.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/donator/mob/clothing/suit.dmi'
+	icon_state = "coat_blackblue"
+	inhand_icon_state = "hostrench"
+	blood_overlay_type = "coat"
+	body_parts_covered = CHEST|GROIN|LEGS|ARMS
+	cold_protection = CHEST|GROIN|LEGS|ARMS
+	supports_variations_flags = NONE
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black-Red" = list(
+			RESKIN_ICON_STATE = "coat_blackred",
+			RESKIN_WORN_ICON_STATE = "coat_blackred"
+		),
+		"White-Red" = list(
+			RESKIN_ICON_STATE = "coat_whitered",
+			RESKIN_WORN_ICON_STATE = "coat_whitered"
+		),
+		"White-Blue" = list(
+			RESKIN_ICON_STATE = "coat_whiteblue",
+			RESKIN_WORN_ICON_STATE = "coat_whiteblue"
+		)
+	)
+
+/obj/item/clothing/suit/armor/hos/elofy/examine_more(mob/user)
+	. = ..()
+	. += "It seems particularly soft and has subtle ballistic fibers intwined with the soft fabric that is perfectedly tailored to the body that wears it. Each golden engraving seems to reflect against your eyes with a slightly blinding flare. This is part of a full set of Luna Wolves Legion battle garb."
+
+/obj/item/clothing/gloves/elofy
+	name = "solar admiral gloves"
+	icon = 'modular_skyrat/master_files/icons/donator/obj/clothing/gloves.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/donator/mob/clothing/hands.dmi'
+	icon_state = "gloves_black"
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"White" = list(
+			RESKIN_ICON_STATE = "gloves_white",
+			RESKIN_WORN_ICON_STATE = "gloves_white"
+		)
+	)
+
+/obj/item/clothing/shoes/jackboots/elofy
+	name = "solar admiral boots"
+	icon = 'modular_skyrat/master_files/icons/donator/obj/clothing/shoes.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/donator/mob/clothing/feet.dmi'
+	icon_state = "boots_blackblue"
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black-Red" = list(
+			RESKIN_ICON_STATE = "boots_blackred",
+			RESKIN_WORN_ICON_STATE = "boots_blackred"
+		),
+		"White-Red" = list(
+			RESKIN_ICON_STATE = "boots_whitered",
+			RESKIN_WORN_ICON_STATE = "boots_whitered"
+		),
+		"White-Blue" = list(
+			RESKIN_ICON_STATE = "boots_whiteblue",
+			RESKIN_WORN_ICON_STATE = "boots_whiteblue"
+		)
+	)
+

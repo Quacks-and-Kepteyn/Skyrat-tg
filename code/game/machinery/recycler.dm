@@ -53,8 +53,8 @@
 /obj/machinery/recycler/RefreshParts()
 	. = ..()
 	var/amt_made = 0
-	for(var/datum/stock_part/manipulator/manipulator in component_parts)
-		amt_made = 12.5 * manipulator.tier //% of materials salvaged
+	for(var/datum/stock_part/servo/servo in component_parts)
+		amt_made = 12.5 * servo.tier //% of materials salvaged
 	amount_produced = min(50, amt_made) + 50
 	var/datum/component/butchering/butchering = GetComponent(/datum/component/butchering/recycler)
 	butchering.effectiveness = amount_produced
@@ -76,7 +76,7 @@
 	if(default_deconstruction_screwdriver(user, "grinder-oOpen", "grinder-o0", I))
 		return
 
-	if(default_pry_open(I))
+	if(default_pry_open(I, close_after_pry = TRUE))
 		return
 
 	if(default_deconstruction_crowbar(I))

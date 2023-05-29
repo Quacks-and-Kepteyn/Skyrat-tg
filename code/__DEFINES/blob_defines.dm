@@ -13,13 +13,14 @@
 
 // Generic blob defines
 
-#define BLOB_BASE_POINT_RATE 2.5 // Base amount of points per process(+1 SkyRat change) 
+//#define BLOB_BASE_POINT_RATE 2 // Base amount of points per process()
+#define BLOB_BASE_POINT_RATE 2.5 // SKYRAT EDIT CHANGE
 #define BLOB_EXPAND_COST 4 // Price to expand onto a new tile
 #define BLOB_ATTACK_REFUND 2 // Points 'refunded' when the expand attempt actually attacks something instead
 #define BLOB_BRUTE_RESIST 0.5 // Brute damage taken gets multiplied by this value
 #define BLOB_FIRE_RESIST 1 // Burn damage taken gets multiplied by this value
 #define BLOB_EXPAND_CHANCE_MULTIPLIER 1 // Increase this value to make blobs naturally expand faster
-#define BLOB_REINFORCE_CHANCE 2.5 // The delta_time chance for cores/nodes to reinforce their surroundings
+#define BLOB_REINFORCE_CHANCE 2.5 // The seconds_per_tick chance for cores/nodes to reinforce their surroundings
 #define BLOB_REAGENTATK_VOL 25 // Amount of strain-reagents that get injected when the blob attacks: main source of blob damage
 
 

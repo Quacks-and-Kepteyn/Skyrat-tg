@@ -112,6 +112,7 @@
 	return total_burn_power
 
 /obj/effect/abstract/liquid_turf/extinguish()
+	. = ..()
 	if(fire_state)
 		set_fire_state(LIQUID_FIRE_STATE_NONE)
 
@@ -409,7 +410,7 @@
 					if(!AM.anchored && !AM.pulledby && !isobserver(AM) && (AM.move_resist < INFINITY))
 						if(iscarbon(AM))
 							var/mob/living/carbon/C = AM
-							if(!(C.shoes && C.shoes.clothing_flags & NOSLIP))
+							if(!(C.shoes && C.shoes.clothing_flags))
 								step(C, dir)
 								if(prob(60) && C.body_position != LYING_DOWN)
 									to_chat(C, span_userdanger("The current knocks you down!"))
@@ -457,7 +458,7 @@
 				return
 
 			if(falling_carbon.wear_mask && falling_carbon.wear_mask.flags_cover & MASKCOVERSMOUTH)
-				to_chat(falling_carbon, span_userdanger("You fall in the water!"))
+				to_chat(falling_carbon, span_userdanger("You fall in the [reagents_to_text()]!"))
 			else
 				var/datum/reagents/tempr = take_reagents_flat(CHOKE_REAGENTS_INGEST_ON_FALL_AMOUNT)
 				tempr.trans_to(falling_carbon, tempr.total_volume, methods = INGEST)
@@ -465,9 +466,9 @@
 				falling_carbon.adjustOxyLoss(5)
 				//C.emote("cough")
 				INVOKE_ASYNC(falling_carbon, TYPE_PROC_REF(/mob, emote), "cough")
-				to_chat(falling_carbon, span_userdanger("You fall in and swallow some water!"))
+				to_chat(falling_carbon, span_userdanger("You fall in and swallow some [reagents_to_text()]!"))
 		else
-			to_chat(M, span_userdanger("You fall in the water!"))
+			to_chat(M, span_userdanger("You fall in the [reagents_to_text()]!"))
 
 /obj/effect/abstract/liquid_turf/Initialize(mapload)
 	. = ..()
@@ -587,6 +588,41 @@
 
 	// Otherwise, just show the total volume
 	examine_list += span_notice("There is [replacetext(liquid_state_template, "$", "liquid")] here.")
+
+/**
+ * Creates a string of the reagents that make up this liquid.
+ *
+ * Puts the reagent(s) that make up the liquid into string form e.g. "plasma" or "plasma and water", or 'plasma, milk, and water' depending on how many reagents there are.
+ *
+ * Returns the reagents list string or a generic "liquid" if there are no reagents somehow
+ *  */
+/obj/effect/abstract/liquid_turf/proc/reagents_to_text()
+	/// the total amount of different types of reagents in the liquid
+	var/total_reagents = length(reagent_list)
+	/// the amount of different types of reagents that have not been listed yet
+	var/reagents_remaining = total_reagents
+	/// the final string to be returned
+	var/reagents_string = ""
+	if(!reagents_remaining)
+		return reagents_string += "liquid"
+
+	do
+		for(var/datum/reagent/reagent_type as anything in reagent_list)
+			reagents_string += "[initial(reagent_type.name)]"
+			reagents_remaining--
+			if(!reagents_remaining)
+				break
+			// if we are at the last reagent in the list, preface its name with 'and'.
+			// do not use a comma if there were only two reagents in the list
+			if(total_reagents == 2)
+				reagents_string += " and "
+			else
+				reagents_string += ", "
+				if(reagents_remaining == 1)
+					reagents_string += "and "
+	while(reagents_remaining)
+
+	return lowertext(reagents_string)
 
 /obj/effect/temp_visual/liquid_splash
 	icon = 'modular_skyrat/modules/liquids/icons/obj/effects/splash.dmi'

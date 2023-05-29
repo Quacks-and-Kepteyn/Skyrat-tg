@@ -82,7 +82,7 @@
 		return
 	clear_grab(playsound = !deleting)
 
-/obj/item/mod/module/anomaly_locked/kinesis/process(delta_time)
+/obj/item/mod/module/anomaly_locked/kinesis/process(seconds_per_tick)
 	if(!mod.wearer.client || mod.wearer.incapacitated(IGNORE_GRAB))
 		clear_grab()
 		return
@@ -149,6 +149,8 @@
 		return FALSE
 	var/atom/movable/movable_target = target
 	if(movable_target.anchored)
+		return FALSE
+	if(movable_target.throwing)
 		return FALSE
 	if(movable_target.move_resist >= MOVE_FORCE_OVERPOWERING)
 		return FALSE

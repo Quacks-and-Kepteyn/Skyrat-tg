@@ -42,7 +42,7 @@
 	icon_state = base_icon_state
 	return ..()
 
-/obj/machinery/harvester/open_machine(drop = TRUE)
+/obj/machinery/harvester/open_machine(drop = TRUE, density_to_set = FALSE)
 	if(panel_open)
 		return
 	. = ..()
@@ -192,6 +192,7 @@
 /obj/machinery/harvester/Exited(atom/movable/gone, direction)
 	if (!state_open && gone == occupant)
 		container_resist_act(gone)
+	return ..()
 
 /obj/machinery/harvester/relaymove(mob/living/user, direction)
 	if (!state_open)

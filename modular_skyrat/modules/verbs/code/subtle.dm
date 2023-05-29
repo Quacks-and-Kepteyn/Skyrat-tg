@@ -36,8 +36,7 @@
 		to_chat(user, span_warning("You can't emote at this time."))
 		return FALSE
 
-	var/prefix_log_message = "(SUBTLE) [subtle_message]"
-	user.log_message(prefix_log_message, LOG_EMOTE)
+	user.log_message(subtle_message, LOG_SUBTLE)
 
 	var/space = should_have_space_before_emote(html_decode(subtle_emote)[1]) ? " " : ""
 
@@ -49,9 +48,9 @@
 	if(hologram)
 		viewers |= get_hearers_in_view(SUBTLE_DEFAULT_DISTANCE, hologram)
 
-	for(var/obj/effect/overlay/holo_pad_hologram/hologram in viewers)
-		if(hologram?.Impersonation?.client)
-			viewers |= hologram.Impersonation
+	for(var/obj/effect/overlay/holo_pad_hologram/iterating_hologram in viewers)
+		if(iterating_hologram?.Impersonation?.client)
+			viewers |= iterating_hologram.Impersonation
 
 	for(var/mob/ghost as anything in GLOB.dead_mob_list)
 		if((ghost.client?.prefs.chat_toggles & CHAT_GHOSTSIGHT) && !(ghost in viewers))

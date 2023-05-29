@@ -66,7 +66,7 @@
 		STOP_PROCESSING(SSobj, src)
 	return ..()
 
-/obj/structure/mob_spawner/process(delta_time)
+/obj/structure/mob_spawner/process(seconds_per_tick)
 	if(passive_spawning)
 		if(spawned_mobs >= max_mobs)
 			return
@@ -163,7 +163,7 @@
 	desc = "A bush... oozing blood?"
 	icon_state = "nest_grass"
 	light_color = LIGHT_COLOR_GREEN
-	monster_types = list(/mob/living/simple_animal/hostile/killertomato)
+	monster_types = list(/mob/living/basic/killer_tomato)
 	loot = list(/obj/item/seeds/random = 3)
 	max_mobs = 6
 
@@ -171,11 +171,11 @@
 	name = "beehive"
 	desc = "Filled with little beings that exist only to make your life a living hell."
 	icon_state = "nest_bee"
-	light_color = LIGHT_COLOR_YELLOW
+	light_color = LIGHT_COLOR_BRIGHT_YELLOW
 	monster_types = list(/mob/living/simple_animal/hostile/bee)
 	max_mobs = 15
 	spawn_cooldown = 5 SECONDS
-	loot = list(/obj/item/reagent_containers/honeycomb = 5, /obj/item/queen_bee)
+	loot = list(/obj/item/food/honeycomb = 5, /obj/item/queen_bee)
 	var/swarmed = FALSE
 
 /obj/structure/mob_spawner/beehive/attacked_by(obj/item/I, mob/living/user)
@@ -199,7 +199,7 @@
 	name = "disgusting eggs"
 	desc = "These pulsating eggs are oozing out a puss like substance..."
 	icon_state = "nest_eggs"
-	light_color = LIGHT_COLOR_YELLOW
+	light_color = LIGHT_COLOR_BRIGHT_YELLOW
 	monster_types = list(/mob/living/simple_animal/hostile/retaliate/snake)
 	max_mobs = 8
 	spawn_cooldown = 5 SECONDS
