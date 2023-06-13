@@ -220,9 +220,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "abl" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -300,9 +298,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "acj" = (
 /obj/machinery/light/warm/directional/east,
 /obj/effect/turf_decal/trimline/red/filled/line{
@@ -2544,6 +2540,12 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
+"aFZ" = (
+/obj/structure/flora/rock/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "aGb" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
@@ -3150,9 +3152,16 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
+"aNn" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark_red{
+	dir = 1
+	},
+/turf/open/floor/iron/edge,
+/area/station/security/prison)
 "aNx" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Isolation Cell 2"
@@ -3416,9 +3425,7 @@
 "aQl" = (
 /obj/structure/falsewall,
 /turf/open/floor/plating,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "aQm" = (
 /obj/item/radio/intercom/directional/west{
 	freerange = 1;
@@ -4844,9 +4851,6 @@
 /obj/effect/spawner/random/entertainment/money_medium,
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/department/science/xenobiology)
-"bhV" = (
-/turf/closed/mineral/random/labormineral,
-/area/station/science/explab)
 "bic" = (
 /obj/machinery/prisongate,
 /obj/machinery/door/poddoor/preopen{
@@ -5392,9 +5396,7 @@
 /area/station/security/execution/transfer)
 "boB" = (
 /turf/closed/wall/r_wall/rust,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "boG" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/siding/yellow,
@@ -5590,9 +5592,7 @@
 	},
 /obj/effect/turf_decal/siding/dark_red/corner,
 /turf/open/floor/iron/corner,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "bqy" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
 /obj/effect/turf_decal/siding/red{
@@ -6218,9 +6218,7 @@
 /obj/structure/cable,
 /obj/effect/spawner/liquids_spawner,
 /turf/open/floor/iron/pool,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "bwY" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
@@ -12192,9 +12190,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/stairs/old,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "cQH" = (
 /obj/structure/sink/kitchen/directional/east,
 /obj/structure/mirror/directional/west,
@@ -13567,7 +13563,7 @@
 /obj/structure/drain,
 /obj/machinery/shower/directional/east,
 /turf/open/floor/iron/white/small,
-/area/station/security/prison/safe)
+/area/station/security/prison/toilet)
 "dgJ" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/trimline/dark/filled/warning{
@@ -13708,9 +13704,7 @@
 /obj/effect/spawner/liquids_spawner,
 /obj/item/toy/beach_ball/branded,
 /turf/open/floor/iron/pool,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "djO" = (
 /obj/structure/trash_pile,
 /turf/open/floor/plating,
@@ -14934,9 +14928,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "dAr" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
@@ -15259,9 +15251,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "dFv" = (
 /obj/machinery/atmospherics/components/tank/air{
 	dir = 1
@@ -15735,9 +15725,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "dJZ" = (
 /turf/open/floor/iron/chapel,
 /area/station/service/chapel)
@@ -16170,9 +16158,7 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "dPe" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/bronze,
@@ -17425,9 +17411,7 @@
 	},
 /obj/structure/curtain,
 /turf/open/floor/iron/white/small,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "eft" = (
 /obj/structure/chair/pew/left,
 /turf/open/floor/plating,
@@ -20366,9 +20350,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "ePM" = (
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -20658,9 +20640,7 @@
 /area/station/engineering/storage)
 "eSR" = (
 /turf/closed/wall/rust,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "eST" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 9
@@ -21292,12 +21272,6 @@
 	dir = 1
 	},
 /area/station/hallway/primary/starboard)
-"fam" = (
-/obj/structure/flora/rock/pile/style_random,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "far" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -22102,9 +22076,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "fjY" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
@@ -22268,12 +22240,6 @@
 /obj/structure/table/wood/fancy/green,
 /turf/open/floor/engine/cult,
 /area/station/service/library/private)
-"fmd" = (
-/obj/structure/flora/rock/style_random,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "fmm" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /turf/open/floor/iron/textured_corner,
@@ -22744,9 +22710,7 @@
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "fqJ" = (
 /turf/closed/mineral/random/labormineral,
 /area/station/engineering/break_room)
@@ -23430,9 +23394,7 @@
 /area/station/cargo/cargo_breakroom)
 "fAb" = (
 /turf/closed/wall/r_wall,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "fAg" = (
 /obj/structure/rack/gunrack,
 /obj/effect/turf_decal/delivery,
@@ -25872,9 +25834,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "geO" = (
 /obj/machinery/door/airlock/hatch{
 	name = "MiniSat Antechamber"
@@ -26520,9 +26480,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "gla" = (
 /obj/machinery/door/airlock/research{
 	name = "Mech Bay"
@@ -26699,9 +26657,7 @@
 /obj/effect/turf_decal/siding/wideplating_new,
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "gne" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
@@ -30104,6 +30060,12 @@
 	dir = 8
 	},
 /area/station/hallway/secondary/exit/departure_lounge)
+"ham" = (
+/obj/item/grown/log,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "hap" = (
 /obj/structure/cable,
 /obj/machinery/light/small/directional/east,
@@ -30722,9 +30684,7 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "hhr" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -31847,9 +31807,7 @@
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "hut" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 1;
@@ -33164,6 +33122,12 @@
 /obj/item/analyzer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/ordnance/office)
+"hLD" = (
+/obj/item/forging/complete/pickaxe,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "hLF" = (
 /obj/item/reagent_containers/cup/beaker,
 /obj/item/reagent_containers/syringe/antiviral,
@@ -33489,6 +33453,10 @@
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating/sandyplating,
 /area/station/maintenance/department/engine)
+"hPg" = (
+/obj/structure/cable,
+/turf/open/floor/iron/large,
+/area/station/security/prison)
 "hPk" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
 	dir = 8
@@ -33923,9 +33891,7 @@
 	dir = 5
 	},
 /turf/open/floor/grass,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "hTI" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 10
@@ -36702,19 +36668,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/edge,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "iFE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet,
 /area/station/hallway/primary/starboard)
-"iFG" = (
-/obj/structure/flora/grass/jungle/b/style_random,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "iFK" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 6
@@ -37343,9 +37301,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "iPh" = (
 /obj/structure/sink/directional/south{
 	color = "#d6c5b0"
@@ -39553,12 +39509,6 @@
 /obj/effect/landmark/start/captain,
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain/private)
-"jpV" = (
-/obj/structure/geyser,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "jqa" = (
 /obj/structure/cable,
 /obj/machinery/light/small/red/directional/east,
@@ -41305,6 +41255,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/textured_large,
 /area/station/engineering/main)
+"jMY" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "jMZ" = (
 /obj/structure/flora/bush/jungle/a/style_random,
 /obj/effect/decal/cleanable/dirt,
@@ -43611,9 +43567,7 @@
 /obj/effect/turf_decal/siding/wideplating_new,
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "knX" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/energy/laser/practice,
@@ -44020,9 +43974,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "kto" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -44200,9 +44152,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "kvx" = (
 /turf/closed/wall/r_wall,
 /area/station/engineering/supermatter)
@@ -44465,7 +44415,7 @@
 "kzm" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/white/small,
-/area/station/security/prison/safe)
+/area/station/security/prison/toilet)
 "kzp" = (
 /obj/structure/flora/bush/jungle/b/style_random,
 /obj/effect/turf_decal/weather/sand{
@@ -45544,9 +45494,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "kOE" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -46481,9 +46429,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/edge,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "kZg" = (
 /turf/closed/wall/r_wall,
 /area/station/security/brig/upper{
@@ -46932,9 +46878,7 @@
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "ldD" = (
 /obj/effect/turf_decal/trimline/red/filled/line,
 /obj/effect/turf_decal/siding/red{
@@ -46945,12 +46889,6 @@
 	dir = 1
 	},
 /area/station/security/prison/visit)
-"ldR" = (
-/obj/effect/decal/cleanable/blood/gibs/up,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "ldY" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 4
@@ -47145,9 +47083,7 @@
 /obj/effect/spawner/liquids_spawner,
 /obj/structure/cable,
 /turf/open/floor/iron/pool,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "lfA" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -50895,6 +50831,11 @@
 	dir = 4
 	},
 /area/station/service/hydroponics)
+"mak" = (
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "mam" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/mail_sorting/science/rd_office,
@@ -51825,9 +51766,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "mlS" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -52209,9 +52148,7 @@
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "mqv" = (
 /obj/effect/turf_decal/trimline/red/filled/corner{
 	dir = 1
@@ -52330,9 +52267,7 @@
 /area/station/maintenance/port/rock_and_stone)
 "mrA" = (
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "mrB" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
@@ -52781,9 +52716,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/edge,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "mwZ" = (
 /obj/item/shard,
 /obj/effect/decal/cleanable/shreds,
@@ -53563,9 +53496,7 @@
 /obj/effect/spawner/liquids_spawner,
 /obj/machinery/shower/directional/west,
 /turf/open/floor/iron/pool,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "mHa" = (
 /obj/machinery/portable_atmospherics/canister,
 /obj/effect/turf_decal/box,
@@ -53622,9 +53553,7 @@
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "mIi" = (
 /obj/effect/spawner/random/trash/garbage,
 /obj/effect/decal/cleanable/dirt,
@@ -56945,9 +56874,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/edge,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "nxx" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/cable,
@@ -57704,9 +57631,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
-"nGa" = (
-/turf/closed/mineral/random/labormineral,
-/area/station/science/ordnance)
 "nGb" = (
 /obj/structure/flora/rock/pile/style_random,
 /turf/open/misc/asteroid,
@@ -62035,9 +61959,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "oEc" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 1
@@ -64267,9 +64189,7 @@
 "peq" = (
 /obj/effect/spawner/liquids_spawner,
 /turf/open/floor/iron/pool,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "pew" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 4
@@ -64489,9 +64409,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/grimy,
 /area/station/service/lawoffice)
-"phL" = (
-/turf/closed/mineral/random/labormineral,
-/area/station/service/library/abandoned)
 "phP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -65435,6 +65352,12 @@
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating/sandyplating,
 /area/station/maintenance/fore/upper)
+"psQ" = (
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "ptb" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/open/floor/circuit/green/telecomms/mainframe,
@@ -67125,9 +67048,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "pNm" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -68661,9 +68582,7 @@
 /obj/effect/turf_decal/trimline/dark_red/filled/corner,
 /obj/effect/turf_decal/siding/dark_red/corner,
 /turf/open/floor/iron/corner,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "qha" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -70690,9 +70609,7 @@
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "qGy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -71433,7 +71350,7 @@
 /obj/machinery/shower/directional/west,
 /obj/effect/decal/cleanable/cum,
 /turf/open/floor/iron/white/small,
-/area/station/security/prison/safe)
+/area/station/security/prison/toilet)
 "qQB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -72965,9 +72882,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "rhF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/bush/jungle/c/style_random,
@@ -73681,9 +73596,7 @@
 /obj/structure/cable,
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "rry" = (
 /turf/closed/wall/r_wall/rust,
 /area/station/engineering/storage)
@@ -73738,9 +73651,7 @@
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "rsJ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -74712,9 +74623,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "rCz" = (
 /obj/effect/turf_decal/trimline/red/filled/warning{
 	dir = 1
@@ -76406,9 +76315,7 @@
 /turf/open/floor/iron/corner{
 	dir = 8
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "rXr" = (
 /obj/item/paper_bin{
 	pixel_y = 4;
@@ -76782,6 +76689,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/service/chapel/funeral)
+"sbx" = (
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "sby" = (
 /obj/structure/chair/sofa/right/brown,
 /obj/effect/turf_decal/siding/wood{
@@ -77604,12 +77517,6 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/blueshield)
-"sjv" = (
-/obj/structure/flora/bush/jungle/a/style_random,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "sjx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -77719,9 +77626,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "skK" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 1
@@ -77864,9 +77769,7 @@
 /area/station/science/lab)
 "smf" = (
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "smi" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -78364,9 +78267,7 @@
 /turf/open/floor/iron/corner{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "ssn" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
 /obj/structure/disposalpipe/segment{
@@ -79198,9 +79099,7 @@
 	dir = 2
 	},
 /turf/open/floor/iron/dark,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "sCl" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -79395,9 +79294,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "sEK" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -79593,11 +79490,8 @@
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain)
 "sHi" = (
-/obj/structure/flora/rock/pile/jungle/style_random,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/turf/closed/mineral/random/labormineral,
+/area/station/science/explab)
 "sHq" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 10
@@ -79614,9 +79508,7 @@
 /obj/machinery/holopad/secure,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "sHs" = (
 /turf/closed/wall/r_wall/rust,
 /area/station/maintenance/department/security/prison)
@@ -79927,6 +79819,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/textured_large,
 /area/station/cargo/storage)
+"sKK" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/iron/large,
+/area/station/security/prison/mess)
 "sKM" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 6
@@ -80041,9 +79940,7 @@
 	dir = 9
 	},
 /turf/open/floor/grass,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "sLH" = (
 /obj/machinery/computer/atmos_alert,
 /obj/effect/turf_decal/bot,
@@ -80533,10 +80430,8 @@
 /turf/open/floor/carpet/green,
 /area/station/service/library)
 "sQU" = (
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/turf/closed/mineral/random/labormineral,
+/area/station/security/prison)
 "sRc" = (
 /obj/machinery/door/window/right/directional/south{
 	name = "Drone Launchsite"
@@ -81778,8 +81673,8 @@
 	name = "\improper Evidence Storage"
 	})
 "tga" = (
-/turf/open/floor/iron/white/small,
-/area/station/security/prison/safe)
+/turf/closed/mineral/random/labormineral,
+/area/station/science/ordnance)
 "tgm" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 4
@@ -83207,6 +83102,12 @@
 /obj/structure/cable,
 /turf/open/floor/plating/sandyplating,
 /area/station/maintenance/fore/greater)
+"txN" = (
+/obj/structure/flora/rock/pile/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "txR" = (
 /obj/effect/mapping_helpers/airlock/access/all/service/theatre,
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -84231,9 +84132,7 @@
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "tIY" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
@@ -84853,7 +84752,7 @@
 /obj/structure/drain,
 /obj/machinery/shower/directional/west,
 /turf/open/floor/iron/white/small,
-/area/station/security/prison/safe)
+/area/station/security/prison/toilet)
 "tSu" = (
 /obj/effect/turf_decal/trimline/blue/corner,
 /obj/effect/turf_decal/trimline/green/corner,
@@ -87013,9 +86912,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "uqU" = (
 /obj/structure/showcase/machinery/signal_decrypter,
 /obj/effect/turf_decal/bot_red,
@@ -87095,9 +86992,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "urw" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "Auxiliary Base Airlock"
@@ -87273,12 +87168,6 @@
 	dir = 8
 	},
 /area/station/service/chapel)
-"utr" = (
-/obj/item/forging/complete/pickaxe,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "utu" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -88903,9 +88792,7 @@
 	dir = 9
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "uNx" = (
 /obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
@@ -89280,9 +89167,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/edge,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "uRD" = (
 /obj/effect/spawner/random/structure/steam_vent,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -90860,9 +90745,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "vkc" = (
 /turf/closed/wall/r_wall/rust,
 /area/station/maintenance/department/electrical)
@@ -93433,6 +93316,9 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/explab)
+"vPI" = (
+/turf/closed/mineral/random/labormineral,
+/area/station/service/library/abandoned)
 "vPK" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -94718,9 +94604,7 @@
 /obj/structure/towel_bin,
 /obj/structure/table,
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "weP" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1;
@@ -95563,9 +95447,7 @@
 /obj/structure/cable,
 /obj/effect/spawner/liquids_spawner,
 /turf/open/floor/iron/pool,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "wnQ" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/turf_decal/siding/dark{
@@ -95764,6 +95646,12 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/maintenance/port/aft)
+"wqw" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "wqy" = (
 /obj/machinery/door/airlock,
 /obj/structure/disposalpipe/segment,
@@ -97644,6 +97532,18 @@
 	},
 /turf/open/floor/iron/white/small,
 /area/station/commons/toilet)
+"wNc" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/dark_red/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark_red/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/edge,
+/area/station/security/prison)
 "wNi" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/purple/filled/warning{
@@ -99141,9 +99041,7 @@
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "xgU" = (
 /obj/structure/trash_pile,
 /turf/open/floor/plating,
@@ -100560,9 +100458,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/showroomfloor,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "xxx" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/effect/turf_decal/stripes/line{
@@ -101134,9 +101030,7 @@
 /turf/open/floor/iron/edge{
 	dir = 4
 	},
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison)
 "xGe" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/bot,
@@ -101178,6 +101072,12 @@
 "xGu" = (
 /turf/open/floor/plating,
 /area/station/maintenance/fore/lesser)
+"xGA" = (
+/obj/structure/geyser,
+/turf/open/misc/asteroid,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "xGD" = (
 /obj/machinery/vending/sustenance,
 /obj/effect/turf_decal/delivery,
@@ -102171,9 +102071,7 @@
 "xSu" = (
 /obj/structure/cable,
 /turf/open/floor/iron/large,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
+/area/station/security/prison/mess)
 "xSF" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner,
 /obj/effect/turf_decal/siding/purple/corner,
@@ -103277,12 +103175,6 @@
 /obj/structure/cable,
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/ce)
-"ygU" = (
-/obj/item/grown/log,
-/turf/open/misc/asteroid,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
-	})
 "ygV" = (
 /obj/machinery/computer/crew{
 	dir = 1
@@ -103440,8 +103332,8 @@
 /area/station/engineering/atmos)
 "yiy" = (
 /turf/closed/mineral/random/labormineral,
-/area/station/security/prison{
-	name = "\improper Prison Visitation"
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
 	})
 "yiG" = (
 /obj/effect/mapping_helpers/burnt_floor,
@@ -112628,14 +112520,14 @@ mbi
 mbi
 cAI
 gkK
-boB
-boB
-boB
-boB
-boB
-boB
-boB
-boB
+sWv
+sWv
+sWv
+sWv
+sWv
+sWv
+sWv
+sWv
 gkK
 byb
 kQr
@@ -112885,15 +112777,15 @@ mbi
 mbi
 cAI
 gkK
-boB
+sWv
 yiy
 yiy
 yiy
 yiy
 yiy
 yiy
-boB
-boB
+sWv
+sWv
 gkK
 gkK
 byb
@@ -113142,17 +113034,17 @@ mbi
 mbi
 cAI
 gkK
-boB
+sWv
 yiy
 yiy
-sHi
-fam
+psQ
+txN
 yiy
 yiy
 yiy
-boB
-boB
-yiy
+sWv
+sWv
+sQU
 gkK
 jhT
 cAI
@@ -113399,17 +113291,17 @@ mbi
 mbi
 cAI
 gkK
-boB
+sWv
 yiy
-fmd
-ygU
+aFZ
+ham
+mak
+mak
+mak
+yiy
+yiy
+sWv
 sQU
-sQU
-sQU
-yiy
-yiy
-boB
-yiy
 gkK
 byb
 cAI
@@ -113656,18 +113548,18 @@ mbi
 mbi
 cAI
 gkK
-boB
+sWv
 yiy
-ldR
-utr
-sjv
+jMY
+hLD
+sbx
 yiy
-sHi
+psQ
+mak
+yiy
+sWv
 sQU
-yiy
-boB
-yiy
-yiy
+sQU
 gkK
 gkK
 gkK
@@ -113913,20 +113805,20 @@ mbi
 mbi
 cAI
 gkK
-boB
+sWv
 yiy
 yiy
-jpV
-yiy
-yiy
-yiy
-fam
-yiy
-boB
+xGA
 yiy
 yiy
 yiy
+txN
 yiy
+sWv
+sQU
+sQU
+sQU
+sQU
 gkK
 gkK
 jhT
@@ -114170,21 +114062,21 @@ mbi
 mbi
 gkK
 gkK
-boB
-boB
+sWv
+sWv
 yiy
 yiy
 yiy
 yiy
 yiy
-iFG
+wqw
 yiy
-boB
-yiy
-yiy
-yiy
-yiy
-yiy
+sWv
+sQU
+sQU
+sQU
+sQU
+sQU
 gkK
 gkK
 cAI
@@ -114429,7 +114321,7 @@ gkK
 yiy
 yiy
 fBg
-fAb
+fBg
 sWv
 sWv
 fBg
@@ -114438,11 +114330,11 @@ jXX
 fBg
 sWv
 fBg
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
+sQU
 gkK
 gkK
 jhT
@@ -114594,7 +114486,7 @@ hvS
 cAI
 gkK
 gkK
-nGa
+tga
 wrm
 wpe
 onF
@@ -114695,12 +114587,12 @@ gZl
 owa
 skj
 fBg
-yiy
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
+sQU
+sQU
 gkK
 cAI
 cAI
@@ -114850,8 +114742,8 @@ hvS
 hvS
 cAI
 gkK
-nGa
-nGa
+tga
+tga
 doJ
 wYg
 xpd
@@ -114935,9 +114827,9 @@ wqT
 puQ
 wqT
 wqT
-lbX
-bLx
-lbX
+xcz
+bIK
+xcz
 xcz
 eDf
 mnD
@@ -114952,12 +114844,12 @@ hev
 hev
 oya
 fBg
-yiy
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
+sQU
+sQU
 gkK
 gkK
 cAI
@@ -115108,7 +115000,7 @@ hvS
 cAI
 gkK
 gkK
-nGa
+tga
 doJ
 doJ
 myi
@@ -115209,13 +115101,13 @@ uAT
 uVA
 qYN
 fBg
-yiy
-yiy
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
+sQU
+sQU
+sQU
 gkK
 cAI
 hvS
@@ -115365,8 +115257,8 @@ hvS
 cAI
 cAI
 gkK
-nGa
-nGa
+tga
+tga
 ugF
 ioq
 nzI
@@ -115450,8 +115342,8 @@ rbu
 tTO
 puQ
 kzm
-tga
-tga
+ltX
+ltX
 xnX
 ltX
 gjy
@@ -115470,8 +115362,8 @@ boB
 fAb
 fAb
 fAb
-yiy
-yiy
+sQU
+sQU
 gkK
 byb
 jhT
@@ -115622,8 +115514,8 @@ hvS
 hvS
 cAI
 gkK
-nGa
-nGa
+tga
+tga
 vMK
 tIg
 qRQ
@@ -115727,8 +115619,8 @@ efg
 efg
 efg
 fAb
-yiy
-gkK
+sQU
+sQU
 gkK
 cAI
 cAI
@@ -115963,9 +115855,9 @@ dJh
 rbu
 vAN
 wqT
-lbX
-dRe
-rby
+xcz
+mnD
+kzH
 kzH
 mnD
 dHi
@@ -116481,17 +116373,17 @@ udw
 xDV
 hOG
 hql
-xSu
+hPg
 sHr
-xSu
-xSu
-xSu
-xSu
-xSu
-xSu
+hPg
+hPg
+hPg
+hPg
+hPg
+hPg
 rrm
-xSu
-xSu
+hPg
+hPg
 dAq
 ldu
 gkY
@@ -116739,7 +116631,7 @@ uSs
 qin
 wVg
 ssi
-xSu
+hPg
 qgY
 rhA
 rhA
@@ -116995,8 +116887,8 @@ bLx
 dRe
 rby
 dRe
-uRr
-xSu
+aNn
+hPg
 mqn
 ocR
 ocR
@@ -117252,8 +117144,8 @@ wWE
 aMN
 jBl
 ddE
-uRr
-xSu
+aNn
+hPg
 tIR
 sqX
 mQr
@@ -117509,7 +117401,7 @@ oxn
 xzL
 qQQ
 aNx
-iFC
+wNc
 sEH
 fqC
 tio
@@ -119478,13 +119370,13 @@ hvS
 hvS
 hvS
 gkK
-bhV
-bhV
-bhV
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
+sHi
+sHi
+sHi
 jco
 udE
 eqz
@@ -119736,11 +119628,11 @@ gPK
 gPK
 byb
 gkK
-bhV
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
+sHi
 cXi
 cXi
 cXi
@@ -119823,7 +119715,7 @@ roS
 qQQ
 ajg
 iFC
-sEH
+sKK
 bqj
 fes
 pNr
@@ -119993,11 +119885,11 @@ hvS
 hvS
 jhT
 byb
-bhV
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
+sHi
 oUH
 fXW
 fXW
@@ -120250,11 +120142,11 @@ gPK
 gPK
 jhT
 byb
-bhV
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
+sHi
 cXi
 dTC
 jZZ
@@ -120508,10 +120400,10 @@ hvS
 cAI
 gkK
 gkK
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
 cXi
 fXW
 tAD
@@ -120765,10 +120657,10 @@ hvS
 cAI
 cAI
 gkK
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
 oUH
 fXW
 fXW
@@ -121023,9 +120915,9 @@ hvS
 cAI
 gkK
 gkK
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
 oUH
 oUH
 oUH
@@ -121281,10 +121173,10 @@ cAI
 cAI
 gkK
 gkK
-bhV
-bhV
-bhV
-bhV
+sHi
+sHi
+sHi
+sHi
 gkK
 gkK
 cAI
@@ -121540,7 +121432,7 @@ cAI
 gkK
 gkK
 gkK
-bhV
+sHi
 gkK
 byb
 jhT
@@ -123423,7 +123315,7 @@ ruQ
 ruQ
 wcY
 wcY
-wcY
+sHs
 umN
 umN
 umN
@@ -126668,7 +126560,7 @@ fHq
 hTC
 acD
 sYF
-phL
+vPI
 gkK
 gkK
 gkK
