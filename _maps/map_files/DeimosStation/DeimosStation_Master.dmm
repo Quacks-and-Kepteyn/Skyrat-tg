@@ -218,6 +218,7 @@
 "abk" = (
 /obj/effect/turf_decal/siding/wideplating_new,
 /obj/structure/cable,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
@@ -3413,7 +3414,8 @@
 /turf/open/floor/iron/textured_large,
 /area/station/hallway/secondary/entry)
 "aQl" = (
-/turf/closed/wall,
+/obj/structure/falsewall,
+/turf/open/floor/plating,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
 	})
@@ -12186,7 +12188,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/stairs/old,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
@@ -26681,6 +26682,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wideplating_new,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
@@ -30703,6 +30705,7 @@
 "hhp" = (
 /obj/effect/turf_decal/siding/wideplating_new/corner,
 /obj/structure/cable,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
@@ -42241,6 +42244,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/engineering/power_room)
+"jXX" = (
+/obj/structure/falsewall/reinforced,
+/turf/open/floor/plating,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "jYc" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -43301,6 +43310,10 @@
 /obj/structure/flora/bush/jungle/b/style_random,
 /turf/open/misc/asteroid/airless,
 /area/station/maintenance/fore/greater)
+"klb" = (
+/obj/structure/falsewall/reinforced,
+/turf/open/floor/plating,
+/area/station/security/prison/garden)
 "klc" = (
 /obj/effect/turf_decal/trimline/dark_blue/filled/line{
 	dir = 10
@@ -43569,6 +43582,7 @@
 /area/station/maintenance/aft/greater)
 "knM" = (
 /obj/effect/turf_decal/siding/wideplating_new,
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
@@ -53573,6 +53587,7 @@
 /obj/structure/drain/big{
 	pixel_y = -7
 	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
@@ -67866,6 +67881,11 @@
 /obj/structure/cable/layer1,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/station/ai_monitored/command/storage/satellite)
+"pXf" = (
+/turf/closed/wall/rust,
+/area/station/security/prison/rec{
+	name = "\improper Prison Library"
+	})
 "pXp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -79527,6 +79547,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain)
+"sHi" = (
+/obj/structure/falsewall/reinforced,
+/turf/open/floor/plating,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "sHq" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 10
@@ -80461,6 +80487,11 @@
 /obj/machinery/photocopier,
 /turf/open/floor/carpet/green,
 /area/station/service/library)
+"sQU" = (
+/turf/open/misc/asteroid/airless,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "sRc" = (
 /obj/machinery/door/window/right/directional/south{
 	name = "Drone Launchsite"
@@ -112542,8 +112573,8 @@ cAI
 gkK
 yiy
 yiy
-yiy
-yiy
+sQU
+sQU
 yiy
 gkK
 gkK
@@ -112798,10 +112829,10 @@ mbi
 cAI
 gkK
 yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
 yiy
 yiy
 gkK
@@ -113055,11 +113086,11 @@ mbi
 cAI
 gkK
 yiy
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
+sQU
 yiy
 yiy
 gkK
@@ -113312,12 +113343,12 @@ mbi
 cAI
 gkK
 yiy
+sQU
+sQU
 yiy
 yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
 yiy
 yiy
 yiy
@@ -113569,16 +113600,16 @@ mbi
 cAI
 gkK
 yiy
+sQU
 yiy
 yiy
 yiy
 yiy
-yiy
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
+sQU
+sQU
 yiy
 gkK
 gkK
@@ -113832,12 +113863,12 @@ yiy
 yiy
 yiy
 yiy
+sQU
+sQU
 yiy
-yiy
-yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
 yiy
 gkK
 gkK
@@ -114088,13 +114119,13 @@ yiy
 yiy
 yiy
 yiy
+sQU
+sQU
 yiy
 yiy
 yiy
 yiy
-yiy
-yiy
-yiy
+sQU
 yiy
 yiy
 gkK
@@ -114345,14 +114376,14 @@ fAb
 sWv
 sWv
 fBg
-fBg
+jXX
 fBg
 fBg
 sWv
 fBg
 yiy
-yiy
-yiy
+sQU
+sQU
 yiy
 yiy
 gkK
@@ -114609,8 +114640,8 @@ skj
 fBg
 yiy
 yiy
-yiy
-yiy
+sQU
+sQU
 yiy
 yiy
 gkK
@@ -114866,9 +114897,9 @@ oya
 fBg
 yiy
 yiy
-yiy
-yiy
-yiy
+sQU
+sQU
+sQU
 yiy
 gkK
 gkK
@@ -115122,8 +115153,8 @@ uVA
 qYN
 fBg
 yiy
-yiy
-yiy
+sQU
+sQU
 yiy
 yiy
 yiy
@@ -115377,10 +115408,10 @@ xTE
 uAT
 hev
 iJt
-fBg
+sWv
 boB
-boB
-boB
+sHi
+fAb
 fAb
 yiy
 yiy
@@ -115634,7 +115665,7 @@ xTE
 uAT
 hev
 qQT
-qkF
+pXf
 efg
 efg
 efg
@@ -115897,7 +115928,7 @@ skH
 urs
 fAb
 fAb
-fAb
+boB
 fAb
 cAI
 hvS
@@ -121279,9 +121310,9 @@ oDF
 xxt
 rNF
 kKk
-haY
 dGu
 dGu
+klb
 haY
 haY
 haY
