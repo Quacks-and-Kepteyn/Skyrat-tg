@@ -4844,6 +4844,9 @@
 /obj/effect/spawner/random/entertainment/money_medium,
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/department/science/xenobiology)
+"bhV" = (
+/turf/closed/mineral/random/labormineral,
+/area/station/science/explab)
 "bic" = (
 /obj/machinery/prisongate,
 /obj/machinery/door/poddoor/preopen{
@@ -21289,6 +21292,12 @@
 	dir = 1
 	},
 /area/station/hallway/primary/starboard)
+"fam" = (
+/obj/structure/flora/rock/pile/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "far" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -22259,6 +22268,12 @@
 /obj/structure/table/wood/fancy/green,
 /turf/open/floor/engine/cult,
 /area/station/service/library/private)
+"fmd" = (
+/obj/structure/flora/rock/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "fmm" = (
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /turf/open/floor/iron/textured_corner,
@@ -36694,6 +36709,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet,
 /area/station/hallway/primary/starboard)
+"iFG" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "iFK" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 6
@@ -39532,6 +39553,12 @@
 /obj/effect/landmark/start/captain,
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain/private)
+"jpV" = (
+/obj/structure/geyser,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "jqa" = (
 /obj/structure/cable,
 /obj/machinery/light/small/red/directional/east,
@@ -46918,6 +46945,12 @@
 	dir = 1
 	},
 /area/station/security/prison/visit)
+"ldR" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "ldY" = (
 /obj/effect/turf_decal/trimline/dark_green/filled/warning{
 	dir = 4
@@ -57671,6 +57704,9 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/cmo)
+"nGa" = (
+/turf/closed/mineral/random/labormineral,
+/area/station/science/ordnance)
 "nGb" = (
 /obj/structure/flora/rock/pile/style_random,
 /turf/open/misc/asteroid,
@@ -64453,6 +64489,9 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/grimy,
 /area/station/service/lawoffice)
+"phL" = (
+/turf/closed/mineral/random/labormineral,
+/area/station/service/library/abandoned)
 "phP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -77565,6 +77604,12 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/blueshield)
+"sjv" = (
+/obj/structure/flora/bush/jungle/a/style_random,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "sjx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -79548,8 +79593,8 @@
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/captain)
 "sHi" = (
-/obj/structure/falsewall/reinforced,
-/turf/open/floor/plating,
+/obj/structure/flora/rock/pile/jungle/style_random,
+/turf/open/misc/asteroid,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
 	})
@@ -80488,7 +80533,7 @@
 /turf/open/floor/carpet/green,
 /area/station/service/library)
 "sQU" = (
-/turf/open/misc/asteroid/airless,
+/turf/open/misc/asteroid,
 /area/station/security/prison{
 	name = "\improper Prison Visitation"
 	})
@@ -87228,6 +87273,12 @@
 	dir = 8
 	},
 /area/station/service/chapel)
+"utr" = (
+/obj/item/forging/complete/pickaxe,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "utu" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -103226,6 +103277,12 @@
 /obj/structure/cable,
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/ce)
+"ygU" = (
+/obj/item/grown/log,
+/turf/open/misc/asteroid,
+/area/station/security/prison{
+	name = "\improper Prison Visitation"
+	})
 "ygV" = (
 /obj/machinery/computer/crew{
 	dir = 1
@@ -109944,8 +110001,8 @@ cJj
 cXE
 cJj
 xDF
+xDF
 gkK
-gkK
 cAI
 cAI
 hvS
@@ -109986,7 +110043,7 @@ cAI
 cAI
 cAI
 cAI
-kQr
+cAI
 hvS
 hvS
 hvS
@@ -110247,7 +110304,7 @@ cAI
 cAI
 cAI
 cAI
-asB
+hvS
 hvS
 hvS
 hvS
@@ -110459,7 +110516,7 @@ usV
 wXp
 izw
 crp
-gkK
+xDF
 gkK
 cAI
 hvS
@@ -110505,17 +110562,17 @@ gkK
 gkK
 cAI
 cAI
-asB
 hvS
 hvS
 hvS
 hvS
 hvS
 hvS
-asB
-asB
-asB
-asB
+hvS
+hvS
+hvS
+hvS
+hvS
 hvS
 hvS
 hvS
@@ -110716,8 +110773,52 @@ edq
 wXp
 qbq
 crp
+xDF
+gkK
+cAI
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+hvS
+cAI
+cAI
 gkK
 gkK
+gkK
+sFV
+sFV
+sFV
+sFV
+sFV
+sFV
+gkK
+gkK
+cAI
 cAI
 hvS
 hvS
@@ -110725,50 +110826,6 @@ hvS
 hvS
 hvS
 hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-hvS
-cAI
-cAI
-gkK
-gkK
-gkK
-sFV
-sFV
-sFV
-sFV
-sFV
-sFV
-gkK
-gkK
-cAI
-cAI
-hvS
-hvS
-hvS
-hvS
-hvS
-asB
 cAI
 jhT
 jhT
@@ -111024,7 +111081,7 @@ cAI
 hvS
 hvS
 hvS
-asB
+hvS
 cAI
 cAI
 byb
@@ -111802,7 +111859,7 @@ gkK
 gkK
 yiy
 gkK
-gkK
+byb
 jhT
 jhT
 gPK
@@ -112059,14 +112116,14 @@ cAI
 gkK
 yiy
 yiy
-gkK
-gkK
+byb
+byb
 cAI
 cAI
 cAI
-gPK
-hvS
-gPK
+jhT
+kQr
+jhT
 hvS
 hvS
 gPK
@@ -112320,11 +112377,11 @@ yiy
 gkK
 gkK
 gkK
-cAI
+gkK
+byb
+gkK
 jhT
-cAI
-gPK
-gPK
+jhT
 gPK
 gPK
 hvS
@@ -112571,19 +112628,19 @@ mbi
 mbi
 cAI
 gkK
-yiy
-yiy
-sQU
-sQU
-yiy
+boB
+boB
+boB
+boB
+boB
+boB
+boB
+boB
 gkK
-gkK
-gkK
-cAI
-cAI
-hvS
-hvS
-gPK
+byb
+kQr
+kQr
+jhT
 hvS
 hvS
 hCB
@@ -112828,19 +112885,19 @@ mbi
 mbi
 cAI
 gkK
-yiy
-sQU
-sQU
-sQU
-sQU
+boB
 yiy
 yiy
+yiy
+yiy
+yiy
+yiy
+boB
+boB
 gkK
 gkK
-cAI
-cAI
-cAI
-gPK
+byb
+jhT
 gPK
 gPK
 gPK
@@ -113030,7 +113087,7 @@ rMj
 crp
 jYW
 cJj
-gkK
+xDF
 gkK
 cAI
 hvS
@@ -113085,18 +113142,18 @@ mbi
 mbi
 cAI
 gkK
-yiy
-sQU
-sQU
-sQU
-sQU
-sQU
+boB
 yiy
 yiy
+sHi
+fam
+yiy
+yiy
+yiy
+boB
+boB
+yiy
 gkK
-gkK
-gkK
-cAI
 jhT
 cAI
 hvS
@@ -113287,7 +113344,7 @@ miq
 crp
 lFE
 cJj
-gkK
+xDF
 gkK
 cAI
 hvS
@@ -113342,19 +113399,19 @@ mbi
 mbi
 cAI
 gkK
+boB
 yiy
+fmd
+ygU
 sQU
 sQU
-yiy
-yiy
-sQU
 sQU
 yiy
 yiy
+boB
 yiy
 gkK
-gkK
-gkK
+byb
 cAI
 cAI
 jhT
@@ -113599,17 +113656,17 @@ mbi
 mbi
 cAI
 gkK
+boB
 yiy
+ldR
+utr
+sjv
+yiy
+sHi
 sQU
 yiy
+boB
 yiy
-yiy
-yiy
-sQU
-sQU
-sQU
-sQU
-sQU
 yiy
 gkK
 gkK
@@ -113856,19 +113913,19 @@ mbi
 mbi
 cAI
 gkK
+boB
+yiy
+yiy
+jpV
 yiy
 yiy
 yiy
+fam
+yiy
+boB
 yiy
 yiy
 yiy
-yiy
-sQU
-sQU
-yiy
-sQU
-sQU
-sQU
 yiy
 gkK
 gkK
@@ -114113,19 +114170,19 @@ mbi
 mbi
 gkK
 gkK
+boB
+boB
 yiy
 yiy
 yiy
 yiy
 yiy
+iFG
 yiy
-sQU
-sQU
-yiy
-yiy
+boB
 yiy
 yiy
-sQU
+yiy
 yiy
 yiy
 gkK
@@ -114376,14 +114433,14 @@ fAb
 sWv
 sWv
 fBg
-jXX
 fBg
+jXX
 fBg
 sWv
 fBg
 yiy
-sQU
-sQU
+yiy
+yiy
 yiy
 yiy
 gkK
@@ -114537,7 +114594,7 @@ hvS
 cAI
 gkK
 gkK
-gkK
+nGa
 wrm
 wpe
 onF
@@ -114640,8 +114697,8 @@ skj
 fBg
 yiy
 yiy
-sQU
-sQU
+yiy
+yiy
 yiy
 yiy
 gkK
@@ -114793,8 +114850,8 @@ hvS
 hvS
 cAI
 gkK
-gkK
-gkK
+nGa
+nGa
 doJ
 wYg
 xpd
@@ -114897,9 +114954,9 @@ oya
 fBg
 yiy
 yiy
-sQU
-sQU
-sQU
+yiy
+yiy
+yiy
 yiy
 gkK
 gkK
@@ -115051,7 +115108,7 @@ hvS
 cAI
 gkK
 gkK
-gkK
+nGa
 doJ
 doJ
 myi
@@ -115153,8 +115210,8 @@ uVA
 qYN
 fBg
 yiy
-sQU
-sQU
+yiy
+yiy
 yiy
 yiy
 yiy
@@ -115308,8 +115365,8 @@ hvS
 cAI
 cAI
 gkK
-gkK
-gkK
+nGa
+nGa
 ugF
 ioq
 nzI
@@ -115410,7 +115467,7 @@ hev
 iJt
 sWv
 boB
-sHi
+fAb
 fAb
 fAb
 yiy
@@ -115565,8 +115622,8 @@ hvS
 hvS
 cAI
 gkK
-gkK
-gkK
+nGa
+nGa
 vMK
 tIg
 qRQ
@@ -115599,7 +115656,7 @@ lUY
 mJa
 vAp
 crp
-gkK
+xDF
 gkK
 byb
 hvS
@@ -115856,7 +115913,7 @@ izS
 lfb
 vAp
 crp
-gkK
+xDF
 byb
 byb
 hvS
@@ -118425,7 +118482,7 @@ bYK
 lFE
 buG
 cJj
-gkK
+xDF
 gkK
 byb
 hvS
@@ -118682,7 +118739,7 @@ crp
 mCb
 cNk
 crp
-gkK
+xDF
 gkK
 byb
 hvS
@@ -118939,7 +118996,7 @@ cJj
 jYW
 buG
 crp
-gkK
+xDF
 byb
 gPK
 gPK
@@ -119421,13 +119478,13 @@ hvS
 hvS
 hvS
 gkK
-iFd
-iFd
-iFd
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
+bhV
+bhV
+bhV
 jco
 udE
 eqz
@@ -119679,11 +119736,11 @@ gPK
 gPK
 byb
 gkK
-iFd
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
+bhV
 cXi
 cXi
 cXi
@@ -119707,8 +119764,8 @@ buG
 jfv
 qGN
 cJj
-gkK
-gkK
+xDF
+xDF
 gkK
 byb
 gPK
@@ -119936,11 +119993,11 @@ hvS
 hvS
 jhT
 byb
-iFd
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
+bhV
 oUH
 fXW
 fXW
@@ -119964,8 +120021,8 @@ cJj
 jfv
 vAy
 cJj
-gkK
-gkK
+xDF
+xDF
 gkK
 hvS
 hvS
@@ -120193,11 +120250,11 @@ gPK
 gPK
 jhT
 byb
-iFd
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
+bhV
 cXi
 dTC
 jZZ
@@ -120221,7 +120278,7 @@ cJj
 jfv
 gOe
 crp
-gkK
+xDF
 gkK
 byb
 hvS
@@ -120451,10 +120508,10 @@ hvS
 cAI
 gkK
 gkK
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
 cXi
 fXW
 tAD
@@ -120478,7 +120535,7 @@ xAR
 bVy
 xll
 crp
-gkK
+xDF
 byb
 gPK
 gPK
@@ -120708,10 +120765,10 @@ hvS
 cAI
 cAI
 gkK
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
 oUH
 fXW
 fXW
@@ -120735,7 +120792,7 @@ cJj
 mJa
 buG
 crp
-gkK
+xDF
 gkK
 hvS
 hvS
@@ -120966,9 +121023,9 @@ hvS
 cAI
 gkK
 gkK
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
 oUH
 oUH
 oUH
@@ -121224,10 +121281,10 @@ cAI
 cAI
 gkK
 gkK
-iFd
-iFd
-iFd
-iFd
+bhV
+bhV
+bhV
+bhV
 gkK
 gkK
 cAI
@@ -121246,7 +121303,7 @@ seT
 cJj
 frg
 cJj
-gkK
+xDF
 gkK
 byb
 gkK
@@ -121483,7 +121540,7 @@ cAI
 gkK
 gkK
 gkK
-iFd
+bhV
 gkK
 byb
 jhT
@@ -126611,7 +126668,7 @@ fHq
 hTC
 acD
 sYF
-gkK
+phL
 gkK
 gkK
 gkK
